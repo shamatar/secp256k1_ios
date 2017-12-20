@@ -1,1 +1,0 @@
-../../../../../swsecp256k1/secp256k1/src/scratch_impl.h
