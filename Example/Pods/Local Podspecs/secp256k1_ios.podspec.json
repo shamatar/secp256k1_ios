@@ -2,33 +2,30 @@
   "name": "secp256k1_ios",
   "version": "0.0.1",
   "summary": "Reference sepc256k1 implementation as pod",
-  "description": "secp256k1 pod",
-  "homepage": "https://github.com/stephencelis/SQLite.swift",
+  "description": "secp256k1 libraty portable pod",
+  "homepage": "https://github.com/shamatar/secp256k1_ios",
   "license": "MIT",
   "authors": {
     "Alex Vlasov": "alex.m.vlasov@gmail.com"
   },
   "source": {
-    "git": "https://github.com/stephencelis/SQLite.swift.git",
+    "git": "https://github.com/shamatar/secp256k1_ios.git",
     "tag": "0.0.1"
   },
   "social_media_url": "https://twitter.com/shamatar",
   "module_name": "secp256k1_ios",
   "platforms": {
-    "ios": "9.0"
+    "ios": "9.0",
+    "osx": "10.10"
   },
   "pod_target_xcconfig": {
     "OTHER_SWIFT_FLAGS": "$(inherited)",
     "OTHER_CFLAGS": "-DHAVE_CONFIG_H=1",
     "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/../../secp256k1_ios/\""
   },
-  "private_header_files": "secp256k1_ios/*.h",
   "source_files": "secp256k1_ios/libsecp256k1-config.h",
-  "xcconfig": {
-    "OTHER_SWIFT_FLAGS": "$(inherited)",
-    "OTHER_CFLAGS": "-DHAVE_CONFIG_H=1",
-    "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/../../secp256k1_ios/\""
-  },
+  "private_header_files": "secp256k1_ios/libsecp256k1-config.h",
+  "public_header_files": "secp256k1_ios/include/*.h",
   "subspecs": [
     {
       "name": "src",
@@ -37,19 +34,20 @@
       "subspecs": [
         {
           "name": "modules",
-          "private_header_files": "secp256k1_ios/src/modules/*.h",
-          "source_files": "secp256k1_ios/src/modules/*.{c,h}"
+          "source_files": "secp256k1_ios/src/modules/*.{c,h}",
+          "private_header_files": "secp256k1_ios/src/modules/*.h"
         }
       ]
     },
     {
       "name": "contrib",
-      "private_header_files": "secp256k1_ios/contrib/*.h",
-      "source_files": "secp256k1_ios/contrib/*.{c,h}"
+      "source_files": "secp256k1_ios/contrib/*.{c,h}",
+      "private_header_files": "secp256k1_ios/contrib/*.h"
     },
     {
       "name": "include",
-      "source_files": "secp256k1_ios/include/*.{h}"
+      "source_files": "secp256k1_ios/include/*.{h}",
+      "private_header_files": "secp256k1_ios/include/*.h"
     }
   ]
 }
