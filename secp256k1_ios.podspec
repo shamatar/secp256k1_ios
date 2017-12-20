@@ -23,6 +23,9 @@ s.pod_target_xcconfig = {
 }
 s.source_files = "secp256k1_ios/libsecp256k1-config.h"
 s.private_header_files = "secp256k1_ios/libsecp256k1-config.h"
+s.dependency 'src'
+s.dependency 'contrib'
+s.dependency 'include'
 # s.public_header_files = 'secp256k1_ios/include/*.h'
 
 # s.xcconfig = {
@@ -34,6 +37,7 @@ s.private_header_files = "secp256k1_ios/libsecp256k1-config.h"
 s.subspec 'src' do |ss|
     ss.source_files = 'secp256k1_ios/src/*.{c,h}'
     ss.private_header_files = 'secp256k1_ios/src/*.h'
+    ss.dependency 'modules'
     ss.subspec 'modules' do |sss|
     	sss.source_files = 'secp256k1_ios/src/modules/*.{c,h}'
         sss.private_header_files = 'secp256k1_ios/src/modules/*.h'
