@@ -16,11 +16,11 @@ s.social_media_url = 'https://twitter.com/shamatar'
 s.module_name      = 'secp256k1_ios'
 s.ios.deployment_target = "9.0"
 s.osx.deployment_target = "10.10"
-# s.pod_target_xcconfig = {
-# 	'OTHER_SWIFT_FLAGS' => '$(inherited)',
-# 	'OTHER_CFLAGS' => '-DHAVE_CONFIG_H=1',
-#     'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/secp256k1_ios/secp256k1_ios/"'
-# }
+s.pod_target_xcconfig = {
+	'OTHER_SWIFT_FLAGS' => '$(inherited)',
+	'OTHER_CFLAGS' => '-DHAVE_CONFIG_H=1',
+    'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/secp256k1_ios/" "${PODS_ROOT}/secp256k1_ios/secp256k1_ios/"'
+}
 s.source_files = "secp256k1_ios/libsecp256k1-config.h"
 s.private_header_files = "secp256k1_ios/libsecp256k1-config.h"
 # s.public_header_files = 'secp256k1_ios/include/*.h'
@@ -28,7 +28,7 @@ s.private_header_files = "secp256k1_ios/libsecp256k1-config.h"
 s.xcconfig = {
 	'OTHER_SWIFT_FLAGS' => '$(inherited)',
 	'OTHER_CFLAGS' => '-DHAVE_CONFIG_H=1',
-    'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/secp256k1_ios/"'
+    'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/secp256k1_ios/" "${PODS_ROOT}/secp256k1_ios/secp256k1_ios/"'
 }
 
 s.subspec 'src' do |ss|
