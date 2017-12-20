@@ -1,13 +1,5 @@
 PODS:
-  - secp256k1_ios (0.0.1):
-    - secp256k1_ios/contrib (= 0.0.1)
-    - secp256k1_ios/include (= 0.0.1)
-    - secp256k1_ios/src (= 0.0.1)
-  - secp256k1_ios/contrib (0.0.1)
-  - secp256k1_ios/include (0.0.1)
-  - secp256k1_ios/src (0.0.1):
-    - secp256k1_ios/src/modules (= 0.0.1)
-  - secp256k1_ios/src/modules (0.0.1)
+  - secp256k1_ios (0.0.4)
 
 DEPENDENCIES:
   - secp256k1_ios (from `https://github.com/shamatar/secp256k1_ios.git`)
@@ -18,11 +10,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   secp256k1_ios:
-    :commit: 8ad3e58144aa8475a512de6539837e81bf4269da
+    :commit: 9208f7d08e4d620b5e1ccba6aeef1392228d2274
     :git: https://github.com/shamatar/secp256k1_ios.git
 
 SPEC CHECKSUMS:
-  secp256k1_ios: f64d5b9a9a1cb4a6f5d0bd8ac6a63e397fd06a89
+  secp256k1_ios: 4244bfe56f58a5082a285e02a074df34746e9ad3
 
 PODFILE CHECKSUM: 6f2e207ccac7de86acd78da9b8cb883e5b3cf43e
 

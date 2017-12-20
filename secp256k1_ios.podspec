@@ -21,8 +21,8 @@ s.pod_target_xcconfig = {
     'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/secp256k1_ios/secp256k1_ios/"'
 }
 s.source_files = "secp256k1_ios/**/*.{h,c}", 
-s.private_header_files = "secp256k1_ios/*.h"
-s.public_header_files = "secp256k1_ios/secp256k1.h", "secp256k1_ios/secp256k1_recovery.h", "secp256k1_ios/secp256k1_ecdh.h"
+s.private_header_files = "secp256k1_ios/*.h", "secp256k1_ios/**/*.h"
+s.public_header_files = "secp256k1_ios/include/secp256k1.h", "secp256k1_ios/include/secp256k1_recovery.h", "secp256k1_ios/include/secp256k1_ecdh.h"
 
 
 end

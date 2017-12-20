@@ -1,6 +1,6 @@
 {
   "name": "secp256k1_ios",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "summary": "Reference sepc256k1 implementation as pod",
   "description": "secp256k1 libraty portable pod",
   "homepage": "https://github.com/shamatar/secp256k1_ios",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/shamatar/secp256k1_ios.git",
-    "tag": "0.0.1"
+    "tag": "0.0.4"
   },
   "social_media_url": "https://twitter.com/shamatar",
   "module_name": "secp256k1_ios",
@@ -22,33 +22,14 @@
     "OTHER_CFLAGS": "-DHAVE_CONFIG_H=1",
     "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/secp256k1_ios/secp256k1_ios/\""
   },
-  "source_files": "secp256k1_ios/libsecp256k1-config.h",
-  "private_header_files": "secp256k1_ios/libsecp256k1-config.h",
-  "xcconfig": {
-    "OTHER_CFLAGS": "-DHAVE_CONFIG_H=1",
-    "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/secp256k1_ios/secp256k1_ios/\""
-  },
-  "subspecs": [
-    {
-      "name": "src",
-      "source_files": "secp256k1_ios/src/*.{c,h}",
-      "private_header_files": "secp256k1_ios/src/*.h",
-      "subspecs": [
-        {
-          "name": "modules",
-          "source_files": "secp256k1_ios/src/modules/*.{c,h}",
-          "private_header_files": "secp256k1_ios/src/modules/*.h"
-        }
-      ]
-    },
-    {
-      "name": "contrib",
-      "source_files": "secp256k1_ios/contrib/*.{c,h}",
-      "private_header_files": "secp256k1_ios/contrib/*.h"
-    },
-    {
-      "name": "include",
-      "source_files": "secp256k1_ios/include/*.{h}"
-    }
+  "private_header_files": "secp256k1_ios/*.h",
+  "source_files": [
+    "secp256k1_ios/**/*.{h,c}",
+    "secp256k1_ios/*.h"
+  ],
+  "public_header_files": [
+    "secp256k1_ios/secp256k1.h",
+    "secp256k1_ios/secp256k1_recovery.h",
+    "secp256k1_ios/secp256k1_ecdh.h"
   ]
 }
