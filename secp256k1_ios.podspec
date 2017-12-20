@@ -10,7 +10,7 @@ DESC
 s.homepage         = "https://github.com/shamatar/secp256k1_ios"
 s.license          = 'MIT'
 s.author           = { "Alex Vlasov" => "alex.m.vlasov@gmail.com" }
-s.source           = { :git => "https://github.com/shamatar/secp256k1_ios.git", :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/shamatar/secp256k1_ios.git', :tag => s.version.to_s }
 s.social_media_url = 'https://twitter.com/shamatar'
 
 s.module_name      = 'secp256k1_ios'
@@ -19,11 +19,11 @@ s.osx.deployment_target = "10.10"
 s.pod_target_xcconfig = {
 	'OTHER_SWIFT_FLAGS' => '$(inherited)',
 	'OTHER_CFLAGS' => '-DHAVE_CONFIG_H=1',
-    'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/../../secp256k1_ios/"'
+    'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/secp256k1_ios/"'
 }
 s.source_files = "secp256k1_ios/libsecp256k1-config.h"
 s.private_header_files = "secp256k1_ios/libsecp256k1-config.h"
-s.public_header_files = 'secp256k1_ios/include/*.h'
+# s.public_header_files = 'secp256k1_ios/include/*.h'
 
 # s.xcconfig = {
 # 	'OTHER_SWIFT_FLAGS' => '$(inherited)',
@@ -48,7 +48,7 @@ end
 
 s.subspec 'include' do |ss|
     ss.source_files = 'secp256k1_ios/include/*.{h}'
-    ss.private_header_files = 'secp256k1_ios/include/*.h'
+    # ss.private_header_files = 'secp256k1_ios/include/*.h'
 end
 
 end
