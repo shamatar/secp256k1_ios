@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import swsecp256k1
+import secp256k1_ios
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

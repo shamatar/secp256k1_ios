@@ -7,145 +7,149 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01CFB5F84B81B5DDE976E557854814F4 /* num_gmp.h in Headers */ = {isa = PBXBuildFile; fileRef = BA3B30B7914E9B78C653C61F09199150 /* num_gmp.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04C9CF375744BFF6FF1A57EC63C6E090 /* Pods-ios-secp256k1_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F21188042EE045BA14D5BCED07D520 /* Pods-ios-secp256k1_Tests-dummy.m */; };
+		0861424F4E92C6484A2E595F0B8EB51C /* num_gmp_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 56709EFFDCAD9659B24B37B0C8294476 /* num_gmp_impl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08F12C0664CF7D2750A9AB0A4F12FE8B /* secp256k1_ecdh.h in Headers */ = {isa = PBXBuildFile; fileRef = 47D05FD7CC23394F72C92DFC6C49DA92 /* secp256k1_ecdh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BD1EEE05C849B24D6DE47B5940F4F2E /* field_5x52_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E327D1E56EEC59C335018ED8ED82437 /* field_5x52_impl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F5B562D8512FB2C8DDDB8A71D225A20 /* scalar_8x32_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B9588CD7C73FA60D31B8EED26839484 /* scalar_8x32_impl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		108311EA5575F1E6D5EE19CCC109AA17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		19014428C03E51B140CB9B07748EC44C /* hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C24DE5D0C6AF70EEC4F1FFABD0E351D /* hash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B16A650610CA3C39DE309029E75F9AC /* scalar_4x64.h in Headers */ = {isa = PBXBuildFile; fileRef = B1FC1F0AFC0EBF57663D9C2FE4917056 /* scalar_4x64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		224977DECDC60DD4DA3CA850D5174C1C /* hash_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BFB396E07465CEE47E4DE0B506C5F24 /* hash_impl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27D31877576AC1B0F03AC8C4F673C9F7 /* group_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 19F27AAAF567D6A449431DC14F20F43B /* group_impl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27D58BACB50093AD437D6A6C32EF8DD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2BB6F54BFEAC69163D6FEA834E7C45EA /* lax_der_parsing.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D30815645FA3498363AB44DFF1B5C03 /* lax_der_parsing.c */; };
+		2D0A54460776FDCFD014F50B203B82D5 /* lax_der_privatekey_parsing.c in Sources */ = {isa = PBXBuildFile; fileRef = E4152C10B51B463EC5AC558232156BAF /* lax_der_privatekey_parsing.c */; };
+		2E44AE9F3F8ACBA43D51E6A7706B3DBA /* scalar_low_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 49621D540787D8C894DD1D7C39957ECB /* scalar_low_impl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FE852EF9096AADE6E0A70057EFD57A6 /* ecmult_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 5258EAE91BC41231A13A55CA4F09D40B /* ecmult_impl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		314F502C3D05EE007F400E166905DB8F /* field_10x26_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = E939F32A5B6EE1018B14AC9695E6BD4D /* field_10x26_impl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38B4D65A8C68D7E703B1DD5268E6F4D0 /* secp256k1.h in Headers */ = {isa = PBXBuildFile; fileRef = C44712B7CEC32B6051EB142ED2601E33 /* secp256k1.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49C76CB99BF4B883F1D39E3F7ECEE4D1 /* Pods-ios-secp256k1_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16D13297E49C77465FFA8F1E9A4FF8E9 /* Pods-ios-secp256k1_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C5E0BC06AC324432B621B2B82C3B9AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		971AC5CF62B6F74171966C83F3896FAB /* Pods-ios-secp256k1_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D0095EE3A7FDB4E4C027F0764027C1 /* Pods-ios-secp256k1_Example-dummy.m */; };
-		A15126B88D07FF586D4E24C4EB291F9B /* Pods-ios-secp256k1_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3934A5DD6376283B8165F4C037DDE9F6 /* Pods-ios-secp256k1_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C61636BB4723CE7AAB895FB14BD284D /* group.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E37BC4804823EC67E3BC85EDCEC09C5 /* group.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5020AA75F6BEE758BA17BC5A31D25D0D /* field_10x26.h in Headers */ = {isa = PBXBuildFile; fileRef = 549C7441839D45040D470898308F41FC /* field_10x26.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C9D9818E156C246042CE9B3E88CCF7 /* ecmult_const.h in Headers */ = {isa = PBXBuildFile; fileRef = 356E5EA0C338F05B4558AA87339A2807 /* ecmult_const.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53B23E522682BC4ADC789EF5B1E03C1B /* Pods-ios-secp256k1_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3934A5DD6376283B8165F4C037DDE9F6 /* Pods-ios-secp256k1_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		593B8607041F35A3AC3A1D7645A09808 /* scalar_4x64_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 31709C35F159B49842A3865D06EE2F0A /* scalar_4x64_impl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59D0C1AB2642989D730F64692E0A7353 /* secp256k1_ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A76A585151BC85E6E16B1A0B64F37A /* secp256k1_ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D86019C3A65322893EA15C080E3433C /* lax_der_privatekey_parsing.h in Headers */ = {isa = PBXBuildFile; fileRef = E637983D86F3BA5D29665E373807C813 /* lax_der_privatekey_parsing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6798CD53837972434F3F7C3EE2E36A8C /* field_5x52.h in Headers */ = {isa = PBXBuildFile; fileRef = 759F0E2E4E32929914A31270707A04BB /* field_5x52.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68AFD562DAF3A841D4E59E9F1D8FBFE2 /* libsecp256k1-config.h in Headers */ = {isa = PBXBuildFile; fileRef = 8601C50988E4478A88CAE5EACEF09432 /* libsecp256k1-config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D489FF5C693DE1152C0564F95A657AC /* lax_der_parsing.h in Headers */ = {isa = PBXBuildFile; fileRef = C65155139D2BD96C130F0F8EA16F720E /* lax_der_parsing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72FDB12A4B6E3050AADA022C0F667AD8 /* Pods-ios-secp256k1_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D0095EE3A7FDB4E4C027F0764027C1 /* Pods-ios-secp256k1_Example-dummy.m */; };
+		75419391E147C0BE3051692C9EB9F76C /* field_5x52_asm_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = DE6A12E950CA87D1FB4F3AA9DEB15FA0 /* field_5x52_asm_impl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B32865654FA88E0D862B4F97E65AC5D /* ecdsa.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F9264D9BBEA18846A76866DF20CFC60 /* ecdsa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86943F55001CEE3AFBD32C08C321125D /* scalar.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD96E4E69ACC04973DDEBBE791A4F31 /* scalar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		933670BFA2537740B82AB66E0FA85AB0 /* ecmult.h in Headers */ = {isa = PBXBuildFile; fileRef = D8A4D916DE36EE5FBA4D5AF0FBBCA376 /* ecmult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9432663F935139B9ADA045FB38363358 /* basic-config.h in Headers */ = {isa = PBXBuildFile; fileRef = 673D7B4931B6CC7DBB11E13655D38D16 /* basic-config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E00E6653905EEB41E38D6C45BB84E21 /* secp256k1_recovery.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E24882D5C9277D839F31BC46440E1ED /* secp256k1_recovery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACA83EEB4FE8A5861D3D5071513D3341 /* eckey_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 9649FFAC73CE0150A695897E6DBF5391 /* eckey_impl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0C5EF3090F513A7ADED087F79D9159C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C1C4B8D899B5993E8F38AC586489BF6E /* num.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B26268539A1AF73C3E01E5E1FB03AD2 /* num.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1F29FAFB852261E96CFABD7A7590167 /* secp256k1_ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7206A9C5D7E3143BFFE39C56B06CCA28 /* secp256k1_ios-dummy.m */; };
+		D4E6CBC8D46FCF940C3C1A291A84D352 /* ecmult_const_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 93686BAF2E1F39DD31632BDE11765F20 /* ecmult_const_impl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D638C493CE7730798AC70674E59D0AF4 /* scalar_8x32.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A7BD4961BA6EB09C72F1784E702334F /* scalar_8x32.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D71B0912665A95F59A0350E87F0DF437 /* field_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0060AB093DD91B0244B9BF67A530A90D /* field_impl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D789622BA9BB95488C9DD67203582BB5 /* ecmult_gen_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 1559F10A0C1B21306044F810D45A37EB /* ecmult_gen_impl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAFB65D0261CEFD7E44B6F45F69BDAF9 /* field_5x52_int128_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DAA7E674D660D2F1031DDFE48A7F38D /* field_5x52_int128_impl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E02864C610777F1B56FAEB23201A0356 /* util.h in Headers */ = {isa = PBXBuildFile; fileRef = FE43B7EC89C356DC46EA922897169E1E /* util.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E05916D87472EF96C542B755BA0B582E /* num_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 66FDAAC05B16DE690C3235BA94645FF4 /* num_impl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74B28C282FCEFD21A66E698664A89F2 /* field.h in Headers */ = {isa = PBXBuildFile; fileRef = D36C3BE6A39B6E9FF8141641ECB07AEB /* field.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC5A3ED95A45B8AD71CB742C6FF60EB6 /* scalar_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C8DCEAFD0D22953C7717EC1FB17302E /* scalar_impl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0C86625B327A0D29E3728A82E0E2165 /* ecdsa_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = F595372E36AEF41CE28314C8BAC7B2AB /* ecdsa_impl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4F4499DED69AE63572071FA2A909BD9 /* eckey.h in Headers */ = {isa = PBXBuildFile; fileRef = 901CDC0146153D013643CC0A4E358211 /* eckey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F84A5B258E9452894179612D1E753C8A /* ecmult_gen.h in Headers */ = {isa = PBXBuildFile; fileRef = 24D166104FD7F022C7F9558D23AB12BC /* ecmult_gen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA7B01429573DCC495EFB2F01D280ADE /* secp256k1.c in Sources */ = {isa = PBXBuildFile; fileRef = 205F6C69D0BA64EB9728291ADB576E95 /* secp256k1.c */; };
+		FE8D2A5D70760424DDD4D9D96CC7C608 /* scalar_low.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D1554F3DAA19794598688E0194064EB /* scalar_low.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5F62A897E007E9E89345825A4A230643 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C53912F0BE7164BFC513EDC81531593;
+			remoteInfo = secp256k1_ios;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		025867E32388BA6E6249AD4E5B7B4856 /* ecmult_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecmult_impl.h; sourceTree = "<group>"; };
-		0293460C9B1EABF71C6020C5CD21E19C /* group.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = group.h; sourceTree = "<group>"; };
+		0060AB093DD91B0244B9BF67A530A90D /* field_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = field_impl.h; path = secp256k1_ios/src/field_impl.h; sourceTree = "<group>"; };
 		03F1926CC30C1AE5DF86C58AE8CF4846 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0502D12BF7EAA5826728900661D3EC35 /* org_bitcoin_Secp256k1Context.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = org_bitcoin_Secp256k1Context.h; sourceTree = "<group>"; };
-		067DD48F87A106B333375AA1593923F6 /* eckey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = eckey.h; sourceTree = "<group>"; };
 		0A15348F65A9DFB615F166EA37FAAAC3 /* Pods-ios-secp256k1_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ios-secp256k1_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0AD5B62C8038DE73913E568B9FDEB202 /* ecdsa_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecdsa_impl.h; sourceTree = "<group>"; };
 		0B1848FB5BBC8D721FACED7580053C68 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D5FA561B8F207E664632478BEB1D930 /* scalar_4x64_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scalar_4x64_impl.h; sourceTree = "<group>"; };
-		108613C3DD30E1DD6F5F5883849FB6A6 /* field_5x52_asm_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = field_5x52_asm_impl.h; sourceTree = "<group>"; };
-		115DC46470D5AF8A11C925E6AB1F3791 /* field_5x52_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = field_5x52_impl.h; sourceTree = "<group>"; };
-		1404ED27A4E93D503B31FE0F1B3A4606 /* group_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = group_impl.h; sourceTree = "<group>"; };
-		148AC2219B784D9BAEF9014FD47E1776 /* secp256k1_recovery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = secp256k1_recovery.h; sourceTree = "<group>"; };
+		0C24DE5D0C6AF70EEC4F1FFABD0E351D /* hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hash.h; path = secp256k1_ios/src/hash.h; sourceTree = "<group>"; };
+		0E327D1E56EEC59C335018ED8ED82437 /* field_5x52_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = field_5x52_impl.h; path = secp256k1_ios/src/field_5x52_impl.h; sourceTree = "<group>"; };
+		1559F10A0C1B21306044F810D45A37EB /* ecmult_gen_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecmult_gen_impl.h; path = secp256k1_ios/src/ecmult_gen_impl.h; sourceTree = "<group>"; };
 		16D13297E49C77465FFA8F1E9A4FF8E9 /* Pods-ios-secp256k1_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ios-secp256k1_Tests-umbrella.h"; sourceTree = "<group>"; };
-		18537A878CEA8A17E1DE1EFD6A5304A6 /* testrand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = testrand.h; sourceTree = "<group>"; };
-		19658CF83C6F29920A7CDE129F8DF8DF /* secp256k1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = secp256k1.h; sourceTree = "<group>"; };
-		1B78EEA9CDDD1116C7DCC91D1D0A6E3F /* field.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = field.h; sourceTree = "<group>"; };
-		1E0DBEDCE416D6D2EBF635C1D3517356 /* tests_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tests_impl.h; sourceTree = "<group>"; };
-		221108A655208DB07460170363E9D16D /* field_5x52.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = field_5x52.h; sourceTree = "<group>"; };
-		22D5D08674F6575CD8CF9962E23BCA8C /* ecmult_gen_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecmult_gen_impl.h; sourceTree = "<group>"; };
-		2356C62208C2AA75A37E57C94DD34E12 /* secp256k1_recovery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = secp256k1_recovery.h; sourceTree = "<group>"; };
-		27A2E80282C54DC143CC73F4C188B9FE /* num.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = num.h; sourceTree = "<group>"; };
-		2AEAC079C8778FA0536FFEB38A552F1E /* scalar_8x32.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scalar_8x32.h; sourceTree = "<group>"; };
+		19F27AAAF567D6A449431DC14F20F43B /* group_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = group_impl.h; path = secp256k1_ios/src/group_impl.h; sourceTree = "<group>"; };
+		1BFB396E07465CEE47E4DE0B506C5F24 /* hash_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hash_impl.h; path = secp256k1_ios/src/hash_impl.h; sourceTree = "<group>"; };
+		1D1554F3DAA19794598688E0194064EB /* scalar_low.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scalar_low.h; path = secp256k1_ios/src/scalar_low.h; sourceTree = "<group>"; };
+		205F6C69D0BA64EB9728291ADB576E95 /* secp256k1.c */ = {isa = PBXFileReference; includeInIndex = 1; name = secp256k1.c; path = secp256k1_ios/src/secp256k1.c; sourceTree = "<group>"; };
+		21237C9A496DEB199E5365BD35CA5B63 /* Pods_ios_secp256k1_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ios_secp256k1_Example.framework; path = "Pods-ios-secp256k1_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D166104FD7F022C7F9558D23AB12BC /* ecmult_gen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecmult_gen.h; path = secp256k1_ios/src/ecmult_gen.h; sourceTree = "<group>"; };
 		2BAE4A3D5C73E0411404F306EEA9F214 /* Pods-ios-secp256k1_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios-secp256k1_Tests-resources.sh"; sourceTree = "<group>"; };
-		2C62C381A8694CEE1048823578778371 /* secp256k1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = secp256k1.h; sourceTree = "<group>"; };
-		303469F267D934D9E266273AC007BFCD /* main_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = main_impl.h; sourceTree = "<group>"; };
-		31445903C3BF8D90E8A8A46721C0E3F8 /* tests_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tests_impl.h; sourceTree = "<group>"; };
-		32DA2477E29CA63BD12F002FCD69A89B /* main_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = main_impl.h; sourceTree = "<group>"; };
-		33CF89BC6B4225A415FAA5D334AD08B9 /* num_gmp_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = num_gmp_impl.h; sourceTree = "<group>"; };
-		35B19AD72EDE7BE98E429DB5D5E91C4C /* scratch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scratch.h; sourceTree = "<group>"; };
-		387CE04CA6BB1102887A8F9F5D55D4B0 /* ecmult_const_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecmult_const_impl.h; sourceTree = "<group>"; };
+		31709C35F159B49842A3865D06EE2F0A /* scalar_4x64_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scalar_4x64_impl.h; path = secp256k1_ios/src/scalar_4x64_impl.h; sourceTree = "<group>"; };
+		356E5EA0C338F05B4558AA87339A2807 /* ecmult_const.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecmult_const.h; path = secp256k1_ios/src/ecmult_const.h; sourceTree = "<group>"; };
 		3934A5DD6376283B8165F4C037DDE9F6 /* Pods-ios-secp256k1_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ios-secp256k1_Example-umbrella.h"; sourceTree = "<group>"; };
-		3C9582DDA370B8E87B109E00FDB7622B /* scalar_4x64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scalar_4x64.h; sourceTree = "<group>"; };
-		3D847EEEFC83647701A23B3E2C79DB42 /* field_5x52_int128_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = field_5x52_int128_impl.h; sourceTree = "<group>"; };
-		40F29401EDD4CB43A713CAE4E25DA2F0 /* basic-config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "basic-config.h"; sourceTree = "<group>"; };
-		410500C144A7DD0C4AB22F0A01DBC68A /* lax_der_parsing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lax_der_parsing.h; sourceTree = "<group>"; };
-		437C239F7BBABE82649274672DFE5C1F /* field_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = field_impl.h; sourceTree = "<group>"; };
-		45343F072A8E4A25429FA72A03E7900A /* basic-config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "basic-config.h"; sourceTree = "<group>"; };
-		46D947B1D794E70B44E9E0BD614112C4 /* secp256k1_ecdh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = secp256k1_ecdh.h; sourceTree = "<group>"; };
-		484A8DDCD9FBD5B954D50CB5D6393168 /* num_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = num_impl.h; sourceTree = "<group>"; };
-		48B7ACF5D8F5EF5A0405F9B395C7E4D9 /* scalar_low_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scalar_low_impl.h; sourceTree = "<group>"; };
+		3C8DCEAFD0D22953C7717EC1FB17302E /* scalar_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scalar_impl.h; path = secp256k1_ios/src/scalar_impl.h; sourceTree = "<group>"; };
+		3D30815645FA3498363AB44DFF1B5C03 /* lax_der_parsing.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lax_der_parsing.c; path = secp256k1_ios/contrib/lax_der_parsing.c; sourceTree = "<group>"; };
+		3E59BF8CA73BA8C45DB1969E231E6604 /* secp256k1_ios-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "secp256k1_ios-prefix.pch"; sourceTree = "<group>"; };
+		47D05FD7CC23394F72C92DFC6C49DA92 /* secp256k1_ecdh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = secp256k1_ecdh.h; path = secp256k1_ios/include/secp256k1_ecdh.h; sourceTree = "<group>"; };
+		4917614717686C2277612252DC670BC9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49621D540787D8C894DD1D7C39957ECB /* scalar_low_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scalar_low_impl.h; path = secp256k1_ios/src/scalar_low_impl.h; sourceTree = "<group>"; };
+		4AD96E4E69ACC04973DDEBBE791A4F31 /* scalar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scalar.h; path = secp256k1_ios/src/scalar.h; sourceTree = "<group>"; };
 		4AF2FB60ED91EE666D78414BDE6C1C5E /* Pods-ios-secp256k1_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ios-secp256k1_Example.modulemap"; sourceTree = "<group>"; };
-		4C118B7D809D49A5572274F56AFED4FE /* main_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = main_impl.h; sourceTree = "<group>"; };
-		4D82DE0C6759CF5DC61468E701690BC2 /* swsecp256k1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "swsecp256k1-umbrella.h"; sourceTree = "<group>"; };
+		4B26268539A1AF73C3E01E5E1FB03AD2 /* num.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = num.h; path = secp256k1_ios/src/num.h; sourceTree = "<group>"; };
 		4E11FF51B6F0ED4ED3F7BE4915881FF1 /* Pods-ios-secp256k1_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-secp256k1_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4F36F551D877AA5F9F1B00F6FF4C00D5 /* num_gmp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = num_gmp.h; sourceTree = "<group>"; };
-		51573D04D1DB835050ECF037594C0E73 /* ecdsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
+		5258EAE91BC41231A13A55CA4F09D40B /* ecmult_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecmult_impl.h; path = secp256k1_ios/src/ecmult_impl.h; sourceTree = "<group>"; };
+		549C7441839D45040D470898308F41FC /* field_10x26.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = field_10x26.h; path = secp256k1_ios/src/field_10x26.h; sourceTree = "<group>"; };
+		56709EFFDCAD9659B24B37B0C8294476 /* num_gmp_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = num_gmp_impl.h; path = secp256k1_ios/src/num_gmp_impl.h; sourceTree = "<group>"; };
 		56F21188042EE045BA14D5BCED07D520 /* Pods-ios-secp256k1_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ios-secp256k1_Tests-dummy.m"; sourceTree = "<group>"; };
-		5775364356DCDDAFAA1FD5B6271F05B7 /* secp256k1_ecdh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = secp256k1_ecdh.h; sourceTree = "<group>"; };
-		59B1382FCE7A5D2B54A02E01FDBE7E6C /* scalar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scalar.h; sourceTree = "<group>"; };
-		59CA2ED2828EA7CDAAC2F900D615B887 /* org_bitcoin_NativeSecp256k1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = org_bitcoin_NativeSecp256k1.h; sourceTree = "<group>"; };
-		5A84286C1BD40DB058D7EE60B93A2036 /* ecmult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecmult.h; sourceTree = "<group>"; };
-		5FED34D748795810CECAD837B0E5F06D /* ecmult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecmult.h; sourceTree = "<group>"; };
-		614F6B0DD402195390C2676CCD3095A0 /* scalar_low_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scalar_low_impl.h; sourceTree = "<group>"; };
-		63B731D06A6CAEE1F351B6E58220619A /* field_10x26_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = field_10x26_impl.h; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		68320B8A2AAAE46D90212E0188D0FBE1 /* field_5x52_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = field_5x52_impl.h; sourceTree = "<group>"; };
-		6A49A00B7C7DE7CBADE18B665B48B5EB /* scratch_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scratch_impl.h; sourceTree = "<group>"; };
-		6D30D6B6E38394A558BD9851D53A2ED7 /* scalar_8x32_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scalar_8x32_impl.h; sourceTree = "<group>"; };
+		66FDAAC05B16DE690C3235BA94645FF4 /* num_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = num_impl.h; path = secp256k1_ios/src/num_impl.h; sourceTree = "<group>"; };
+		673D7B4931B6CC7DBB11E13655D38D16 /* basic-config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "basic-config.h"; path = "secp256k1_ios/src/basic-config.h"; sourceTree = "<group>"; };
+		6A7BD4961BA6EB09C72F1784E702334F /* scalar_8x32.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scalar_8x32.h; path = secp256k1_ios/src/scalar_8x32.h; sourceTree = "<group>"; };
+		6E37BC4804823EC67E3BC85EDCEC09C5 /* group.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = group.h; path = secp256k1_ios/src/group.h; sourceTree = "<group>"; };
 		7148C47CA632510988662E0CB8028883 /* Pods-ios-secp256k1_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ios-secp256k1_Tests.modulemap"; sourceTree = "<group>"; };
-		744E12CCFAC533A415C337C477901EC3 /* ecmult_gen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecmult_gen.h; sourceTree = "<group>"; };
-		762102FD038357DD810E923614F6B03B /* scalar_8x32.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scalar_8x32.h; sourceTree = "<group>"; };
-		76B8CACAD65C7311E08981709E2E8E42 /* field_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = field_impl.h; sourceTree = "<group>"; };
-		79026C463D8E7CE69538C28D519E3235 /* group.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = group.h; sourceTree = "<group>"; };
-		7A3A7DDCB3AC318437E5E2C3EA1A57C2 /* scalar_8x32_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scalar_8x32_impl.h; sourceTree = "<group>"; };
-		7F6D45C1C407B69EAF71915F04584224 /* num_gmp_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = num_gmp_impl.h; sourceTree = "<group>"; };
-		80C20AD466C3915982C3509146A963FF /* scratch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scratch.h; sourceTree = "<group>"; };
-		811EFD7DAA00307DE15CF16867FF5243 /* num_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = num_impl.h; sourceTree = "<group>"; };
-		8A4196E50379B42A16BBA2F0E909C9DE /* secp256k1_recovery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = secp256k1_recovery.h; sourceTree = "<group>"; };
+		7206A9C5D7E3143BFFE39C56B06CCA28 /* secp256k1_ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "secp256k1_ios-dummy.m"; sourceTree = "<group>"; };
+		759F0E2E4E32929914A31270707A04BB /* field_5x52.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = field_5x52.h; path = secp256k1_ios/src/field_5x52.h; sourceTree = "<group>"; };
+		7E24882D5C9277D839F31BC46440E1ED /* secp256k1_recovery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = secp256k1_recovery.h; path = secp256k1_ios/include/secp256k1_recovery.h; sourceTree = "<group>"; };
+		7F9264D9BBEA18846A76866DF20CFC60 /* ecdsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdsa.h; path = secp256k1_ios/src/ecdsa.h; sourceTree = "<group>"; };
+		8601C50988E4478A88CAE5EACEF09432 /* libsecp256k1-config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "libsecp256k1-config.h"; path = "secp256k1_ios/libsecp256k1-config.h"; sourceTree = "<group>"; };
 		8D8854D0764B86E8E2FD34ED62B0F5E8 /* Pods-ios-secp256k1_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-secp256k1_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		901CDC0146153D013643CC0A4E358211 /* eckey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = eckey.h; path = secp256k1_ios/src/eckey.h; sourceTree = "<group>"; };
 		90C7458C67F5AD86D7FF39EF98B11F6A /* Pods-ios-secp256k1_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ios-secp256k1_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93911819BA9D6A09B0363EB963C918C9 /* scalar_4x64_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scalar_4x64_impl.h; sourceTree = "<group>"; };
+		93686BAF2E1F39DD31632BDE11765F20 /* ecmult_const_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecmult_const_impl.h; path = secp256k1_ios/src/ecmult_const_impl.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		979A4CE8933CA45476D7E08015F57226 /* group_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = group_impl.h; sourceTree = "<group>"; };
-		98F2E8575ED5DFBF886149406FD6C69F /* hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = hash.h; sourceTree = "<group>"; };
-		9962B502754BB10740E53D581BC14662 /* field_10x26.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = field_10x26.h; sourceTree = "<group>"; };
-		9F06EEAA7ACA91141DCE7CA422915E33 /* testrand_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = testrand_impl.h; sourceTree = "<group>"; };
-		A0074D2A312586ED3885F2D215A4BB9D /* num_gmp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = num_gmp.h; sourceTree = "<group>"; };
+		95A76A585151BC85E6E16B1A0B64F37A /* secp256k1_ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "secp256k1_ios-umbrella.h"; sourceTree = "<group>"; };
+		9649FFAC73CE0150A695897E6DBF5391 /* eckey_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = eckey_impl.h; path = secp256k1_ios/src/eckey_impl.h; sourceTree = "<group>"; };
+		9B9588CD7C73FA60D31B8EED26839484 /* scalar_8x32_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scalar_8x32_impl.h; path = secp256k1_ios/src/scalar_8x32_impl.h; sourceTree = "<group>"; };
+		9DAA7E674D660D2F1031DDFE48A7F38D /* field_5x52_int128_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = field_5x52_int128_impl.h; path = secp256k1_ios/src/field_5x52_int128_impl.h; sourceTree = "<group>"; };
 		A2D0095EE3A7FDB4E4C027F0764027C1 /* Pods-ios-secp256k1_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ios-secp256k1_Example-dummy.m"; sourceTree = "<group>"; };
-		A30C09F481C4B61683DBED7EBE1E5B24 /* bench.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = bench.h; sourceTree = "<group>"; };
-		A31E9E99B209521BBE2334D5E2F1D6A4 /* field_5x52.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = field_5x52.h; sourceTree = "<group>"; };
 		A5155FF381207C8756FD03E964F16854 /* Pods-ios-secp256k1_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios-secp256k1_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A58B78C92F439662BD9BA255D9332F51 /* Pods-ios-secp256k1_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios-secp256k1_Example-resources.sh"; sourceTree = "<group>"; };
-		A5B7E53FC55CFF8D9365D86A0B4492C4 /* ecmult_gen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecmult_gen.h; sourceTree = "<group>"; };
-		A7B3EE82602E0AD6170A17070B2A2C2B /* main_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = main_impl.h; sourceTree = "<group>"; };
-		A8A75702E2B11061CFC88DFC3E953946 /* ecmult_gen_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecmult_gen_impl.h; sourceTree = "<group>"; };
-		AC3E62981071D1BB8D11E44834200E7D /* testrand_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = testrand_impl.h; sourceTree = "<group>"; };
-		AF5544E9D8B30ACEA09F44FF7D04A82C /* ecmult_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecmult_impl.h; sourceTree = "<group>"; };
+		AA6435173B3B94FCC6C4BAE43542558C /* Pods_ios_secp256k1_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ios_secp256k1_Tests.framework; path = "Pods-ios-secp256k1_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0470E75AFE4785BC0B34FBF35F7E99E /* Pods-ios-secp256k1_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ios-secp256k1_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B3FB2F356440F1ABD6B9CC4D124F974A /* secp256k1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = secp256k1.framework; path = swsecp256k1/framework/secp256k1.framework; sourceTree = "<group>"; };
-		B40032EF2E11CE5D1497781B9D6CF338 /* field_5x52_asm_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = field_5x52_asm_impl.h; sourceTree = "<group>"; };
-		B424FF91D6BEAA33B0FAB967461958AC /* tests_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tests_impl.h; sourceTree = "<group>"; };
-		B43C4A553ED955ACC3DFFB6E6A5417DD /* scalar_4x64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scalar_4x64.h; sourceTree = "<group>"; };
-		BA93FED5227B012523217EF85ED6CEFF /* scratch_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scratch_impl.h; sourceTree = "<group>"; };
+		B1FC1F0AFC0EBF57663D9C2FE4917056 /* scalar_4x64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scalar_4x64.h; path = secp256k1_ios/src/scalar_4x64.h; sourceTree = "<group>"; };
+		BA3B30B7914E9B78C653C61F09199150 /* num_gmp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = num_gmp.h; path = secp256k1_ios/src/num_gmp.h; sourceTree = "<group>"; };
+		BC808B320FA5753D1CE78A9FD4FF421E /* secp256k1_ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = secp256k1_ios.xcconfig; sourceTree = "<group>"; };
 		BE7E3BC694BE51EFEC9E21D7EC2822C4 /* Pods-ios-secp256k1_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-secp256k1_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BF2832C0970CAEB5D2B3E004F0EEDD70 /* field_5x52_int128_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = field_5x52_int128_impl.h; sourceTree = "<group>"; };
-		BF7772E051589770812487389A7266CA /* num.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = num.h; sourceTree = "<group>"; };
-		C0DB25186F1E37B7E33605EBA5E6FF88 /* testrand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = testrand.h; sourceTree = "<group>"; };
-		C36291F4A4E7E9A17C6B59ECE70FB24B /* ecdsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
-		C3CD5B4831F7321E7FFA365038AEA9C3 /* ecmult_const.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecmult_const.h; sourceTree = "<group>"; };
-		C48BAE996EE206C4982AE441DA85CA38 /* Pods_ios_secp256k1_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ios_secp256k1_Example.framework; path = "Pods-ios-secp256k1_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8645F01FD765933D1601BF2D195E26C /* ecdsa_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecdsa_impl.h; sourceTree = "<group>"; };
-		C8A8F3D60353C2011EEABC6616DB4D53 /* field.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = field.h; sourceTree = "<group>"; };
+		C44712B7CEC32B6051EB142ED2601E33 /* secp256k1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = secp256k1.h; path = secp256k1_ios/include/secp256k1.h; sourceTree = "<group>"; };
+		C65155139D2BD96C130F0F8EA16F720E /* lax_der_parsing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lax_der_parsing.h; path = secp256k1_ios/contrib/lax_der_parsing.h; sourceTree = "<group>"; };
 		C9AFF4E3FC320BA9ABD4A4CACE62B805 /* Pods-ios-secp256k1_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-secp256k1_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CA2D7959EC4FA0351B6A1DBB09A43BD8 /* Pods_ios_secp256k1_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ios_secp256k1_Tests.framework; path = "Pods-ios-secp256k1_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAEF429BC6E73FDBFD2329AE1152B561 /* field_10x26_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = field_10x26_impl.h; sourceTree = "<group>"; };
 		CD6F80E869E97869A9892AC18E74CF20 /* Pods-ios-secp256k1_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ios-secp256k1_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D116746239EC85115C21CE78CE6BECDF /* field_10x26.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = field_10x26.h; sourceTree = "<group>"; };
-		D44412E570F70A0725054D53F4BAD782 /* lax_der_privatekey_parsing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lax_der_privatekey_parsing.h; sourceTree = "<group>"; };
-		D46740458B08D30401F614A1903017FF /* hash_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = hash_impl.h; sourceTree = "<group>"; };
-		D79EBECCE571C2890AEFFEFF79B099A5 /* eckey_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = eckey_impl.h; sourceTree = "<group>"; };
-		D7A83EF676944BEF0503349D86486F52 /* scalar_low.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scalar_low.h; sourceTree = "<group>"; };
-		D8CF59CB7F2835AA0A8239EB1517C066 /* org_bitcoin_NativeSecp256k1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = org_bitcoin_NativeSecp256k1.h; sourceTree = "<group>"; };
-		D99766343C59D392963BC0E3A99051B2 /* util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
-		D9EE5FDADDFAB8A84DFE9B219626EC84 /* eckey_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = eckey_impl.h; sourceTree = "<group>"; };
-		E09AA5809516C4A2B4B69A82D7B855C5 /* ecmult_const.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecmult_const.h; sourceTree = "<group>"; };
-		E443734DEAEA968FBA2511899850F318 /* scalar_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scalar_impl.h; sourceTree = "<group>"; };
-		E4E716D8FED8CDD5C23F845C53B6DDB4 /* scalar_low.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scalar_low.h; sourceTree = "<group>"; };
-		E68462E6705ABA2B5A0B8586D110F3C8 /* scalar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scalar.h; sourceTree = "<group>"; };
-		EACCD146BD4B666ED3DCEB11DC65DEA4 /* org_bitcoin_Secp256k1Context.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = org_bitcoin_Secp256k1Context.h; sourceTree = "<group>"; };
-		F0E61F97D8BF21B918CA54E3871BD4DE /* ecmult_const_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecmult_const_impl.h; sourceTree = "<group>"; };
-		F22000B0053CF15B91247AEAFB7C7625 /* tests_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = tests_impl.h; sourceTree = "<group>"; };
+		D36C3BE6A39B6E9FF8141641ECB07AEB /* field.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = field.h; path = secp256k1_ios/src/field.h; sourceTree = "<group>"; };
+		D8A4D916DE36EE5FBA4D5AF0FBBCA376 /* ecmult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecmult.h; path = secp256k1_ios/src/ecmult.h; sourceTree = "<group>"; };
+		DE6A12E950CA87D1FB4F3AA9DEB15FA0 /* field_5x52_asm_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = field_5x52_asm_impl.h; path = secp256k1_ios/src/field_5x52_asm_impl.h; sourceTree = "<group>"; };
+		E4152C10B51B463EC5AC558232156BAF /* lax_der_privatekey_parsing.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lax_der_privatekey_parsing.c; path = secp256k1_ios/contrib/lax_der_privatekey_parsing.c; sourceTree = "<group>"; };
+		E637983D86F3BA5D29665E373807C813 /* lax_der_privatekey_parsing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lax_der_privatekey_parsing.h; path = secp256k1_ios/contrib/lax_der_privatekey_parsing.h; sourceTree = "<group>"; };
+		E939F32A5B6EE1018B14AC9695E6BD4D /* field_10x26_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = field_10x26_impl.h; path = secp256k1_ios/src/field_10x26_impl.h; sourceTree = "<group>"; };
+		F1C154391AC182201509CE2B218B828A /* secp256k1_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = secp256k1_ios.framework; path = secp256k1_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F25A5B0DD7EB782DA4034C41190410B4 /* Pods-ios-secp256k1_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios-secp256k1_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F3CC66E3E892C67D4E482F29E05BE3C9 /* hash_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = hash_impl.h; sourceTree = "<group>"; };
-		F4D8BE598AFD2488983BE1A5B232FE56 /* bench.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = bench.h; sourceTree = "<group>"; };
-		F4E6012BDD69A460D01EAAFACFC598B8 /* hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = hash.h; sourceTree = "<group>"; };
-		F90A03129424236045C4357062D61844 /* eckey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = eckey.h; sourceTree = "<group>"; };
-		F9154E112B0A661FEC19122FAF4B2304 /* scalar_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scalar_impl.h; sourceTree = "<group>"; };
-		FF5EBE3C97AD95AE948371D90B107FB4 /* util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
-		FFFE22D85F3B401A9A71EE0FBEB163BE /* secp256k1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = secp256k1.h; sourceTree = "<group>"; };
+		F595372E36AEF41CE28314C8BAC7B2AB /* ecdsa_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdsa_impl.h; path = secp256k1_ios/src/ecdsa_impl.h; sourceTree = "<group>"; };
+		FE43B7EC89C356DC46EA922897169E1E /* util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = util.h; path = secp256k1_ios/src/util.h; sourceTree = "<group>"; };
+		FE862FF7F734530DBC6215C963821364 /* secp256k1_ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = secp256k1_ios.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,225 +161,134 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4AB7A5A2B07DF21869C4DBA4906AF1B /* Frameworks */ = {
+		3BB3F6C70CB1F772B738BCB787227E69 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C5E0BC06AC324432B621B2B82C3B9AC /* Foundation.framework in Frameworks */,
+				108311EA5575F1E6D5EE19CCC109AA17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8796742A339CF5C0F41476550FE00181 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D58BACB50093AD437D6A6C32EF8DD8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		020DE8DDC98D4F0DE5B7A374FDDF336B /* Versions */ = {
+		26FC8DF6EBFC4A279D4E7438937361D2 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				E2179391B308378C3D06B5A077873F4E /* A */,
-			);
-			name = Versions;
-			path = Versions;
-			sourceTree = "<group>";
-		};
-		1ACA2AD49F7294A18582CC7578B8D093 /* ecdh */ = {
-			isa = PBXGroup;
-			children = (
-				4C118B7D809D49A5572274F56AFED4FE /* main_impl.h */,
-				1E0DBEDCE416D6D2EBF635C1D3517356 /* tests_impl.h */,
-			);
-			name = ecdh;
-			path = ecdh;
-			sourceTree = "<group>";
-		};
-		295282B1A4FCA16B9FC9609953D3E1D8 /* ecdh */ = {
-			isa = PBXGroup;
-			children = (
-				303469F267D934D9E266273AC007BFCD /* main_impl.h */,
-				31445903C3BF8D90E8A8A46721C0E3F8 /* tests_impl.h */,
-			);
-			name = ecdh;
-			path = ecdh;
-			sourceTree = "<group>";
-		};
-		2AF692963F64E50185147DD56052C9F4 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				19658CF83C6F29920A7CDE129F8DF8DF /* secp256k1.h */,
-				5775364356DCDDAFAA1FD5B6271F05B7 /* secp256k1_ecdh.h */,
-				2356C62208C2AA75A37E57C94DD34E12 /* secp256k1_recovery.h */,
+				C44712B7CEC32B6051EB142ED2601E33 /* secp256k1.h */,
+				47D05FD7CC23394F72C92DFC6C49DA92 /* secp256k1_ecdh.h */,
+				7E24882D5C9277D839F31BC46440E1ED /* secp256k1_recovery.h */,
 			);
 			name = include;
-			path = include;
 			sourceTree = "<group>";
 		};
-		31DDBAA1CC0AB1163D24ED0EB450D6A1 /* include */ = {
+		2B4AD90ECAB3A0AFF4D1F966AF30A706 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FFFE22D85F3B401A9A71EE0FBEB163BE /* secp256k1.h */,
-				46D947B1D794E70B44E9E0BD614112C4 /* secp256k1_ecdh.h */,
-				148AC2219B784D9BAEF9014FD47E1776 /* secp256k1_recovery.h */,
+				9BAC9C5F43E287E30C5D53D6E2E9649F /* secp256k1_ios */,
 			);
-			name = include;
-			path = include;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		56E6B77C5F571F3A740ADBDEC85B7FA1 /* Classes */ = {
+		474F034AE8B8892AB5944F7A6916A0E3 /* contrib */ = {
 			isa = PBXGroup;
 			children = (
-				31DDBAA1CC0AB1163D24ED0EB450D6A1 /* include */,
-				FEC2339820C88C4929F42E9FFE1D8FDD /* src */,
-			);
-			name = Classes;
-			path = swsecp256k1/Classes;
-			sourceTree = "<group>";
-		};
-		6162071B090199762757B67E9623EEC6 /* contrib */ = {
-			isa = PBXGroup;
-			children = (
-				410500C144A7DD0C4AB22F0A01DBC68A /* lax_der_parsing.h */,
-				D44412E570F70A0725054D53F4BAD782 /* lax_der_privatekey_parsing.h */,
+				3D30815645FA3498363AB44DFF1B5C03 /* lax_der_parsing.c */,
+				C65155139D2BD96C130F0F8EA16F720E /* lax_der_parsing.h */,
+				E4152C10B51B463EC5AC558232156BAF /* lax_der_privatekey_parsing.c */,
+				E637983D86F3BA5D29665E373807C813 /* lax_der_privatekey_parsing.h */,
 			);
 			name = contrib;
-			path = contrib;
 			sourceTree = "<group>";
 		};
-		742DEFA6C339A9D3B3C2BB765CC76CD8 /* modules */ = {
+		74D826896C9143CC018E418857888E23 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				1ACA2AD49F7294A18582CC7578B8D093 /* ecdh */,
-				8122852E8298630EE1C237C4A5CE540A /* recovery */,
+				673D7B4931B6CC7DBB11E13655D38D16 /* basic-config.h */,
+				7F9264D9BBEA18846A76866DF20CFC60 /* ecdsa.h */,
+				F595372E36AEF41CE28314C8BAC7B2AB /* ecdsa_impl.h */,
+				901CDC0146153D013643CC0A4E358211 /* eckey.h */,
+				9649FFAC73CE0150A695897E6DBF5391 /* eckey_impl.h */,
+				D8A4D916DE36EE5FBA4D5AF0FBBCA376 /* ecmult.h */,
+				356E5EA0C338F05B4558AA87339A2807 /* ecmult_const.h */,
+				93686BAF2E1F39DD31632BDE11765F20 /* ecmult_const_impl.h */,
+				24D166104FD7F022C7F9558D23AB12BC /* ecmult_gen.h */,
+				1559F10A0C1B21306044F810D45A37EB /* ecmult_gen_impl.h */,
+				5258EAE91BC41231A13A55CA4F09D40B /* ecmult_impl.h */,
+				D36C3BE6A39B6E9FF8141641ECB07AEB /* field.h */,
+				549C7441839D45040D470898308F41FC /* field_10x26.h */,
+				E939F32A5B6EE1018B14AC9695E6BD4D /* field_10x26_impl.h */,
+				759F0E2E4E32929914A31270707A04BB /* field_5x52.h */,
+				DE6A12E950CA87D1FB4F3AA9DEB15FA0 /* field_5x52_asm_impl.h */,
+				0E327D1E56EEC59C335018ED8ED82437 /* field_5x52_impl.h */,
+				9DAA7E674D660D2F1031DDFE48A7F38D /* field_5x52_int128_impl.h */,
+				0060AB093DD91B0244B9BF67A530A90D /* field_impl.h */,
+				6E37BC4804823EC67E3BC85EDCEC09C5 /* group.h */,
+				19F27AAAF567D6A449431DC14F20F43B /* group_impl.h */,
+				0C24DE5D0C6AF70EEC4F1FFABD0E351D /* hash.h */,
+				1BFB396E07465CEE47E4DE0B506C5F24 /* hash_impl.h */,
+				4B26268539A1AF73C3E01E5E1FB03AD2 /* num.h */,
+				BA3B30B7914E9B78C653C61F09199150 /* num_gmp.h */,
+				56709EFFDCAD9659B24B37B0C8294476 /* num_gmp_impl.h */,
+				66FDAAC05B16DE690C3235BA94645FF4 /* num_impl.h */,
+				4AD96E4E69ACC04973DDEBBE791A4F31 /* scalar.h */,
+				B1FC1F0AFC0EBF57663D9C2FE4917056 /* scalar_4x64.h */,
+				31709C35F159B49842A3865D06EE2F0A /* scalar_4x64_impl.h */,
+				6A7BD4961BA6EB09C72F1784E702334F /* scalar_8x32.h */,
+				9B9588CD7C73FA60D31B8EED26839484 /* scalar_8x32_impl.h */,
+				3C8DCEAFD0D22953C7717EC1FB17302E /* scalar_impl.h */,
+				1D1554F3DAA19794598688E0194064EB /* scalar_low.h */,
+				49621D540787D8C894DD1D7C39957ECB /* scalar_low_impl.h */,
+				205F6C69D0BA64EB9728291ADB576E95 /* secp256k1.c */,
+				FE43B7EC89C356DC46EA922897169E1E /* util.h */,
 			);
-			name = modules;
-			path = modules;
+			name = src;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				D9B9A34ACB2C4D514FAAB3F8D1A58143 /* Development Pods */,
+				2B4AD90ECAB3A0AFF4D1F966AF30A706 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				99E9AD943163AA6D5B16E32E98EFEC53 /* Products */,
+				B30E008AA284ED155CB910E45EE82914 /* Products */,
 				A51E07F202D991801981E99C458DA73E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8122852E8298630EE1C237C4A5CE540A /* recovery */ = {
+		973564D4D40577729898393E8EBA2699 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				32DA2477E29CA63BD12F002FCD69A89B /* main_impl.h */,
-				B424FF91D6BEAA33B0FAB967461958AC /* tests_impl.h */,
+				4917614717686C2277612252DC670BC9 /* Info.plist */,
+				FE862FF7F734530DBC6215C963821364 /* secp256k1_ios.modulemap */,
+				BC808B320FA5753D1CE78A9FD4FF421E /* secp256k1_ios.xcconfig */,
+				7206A9C5D7E3143BFFE39C56B06CCA28 /* secp256k1_ios-dummy.m */,
+				3E59BF8CA73BA8C45DB1969E231E6604 /* secp256k1_ios-prefix.pch */,
+				95A76A585151BC85E6E16B1A0B64F37A /* secp256k1_ios-umbrella.h */,
 			);
-			name = recovery;
-			path = recovery;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/secp256k1_ios";
 			sourceTree = "<group>";
 		};
-		86CFEEF6534AA849C78FF07F47FA34BF /* Frameworks */ = {
+		9BAC9C5F43E287E30C5D53D6E2E9649F /* secp256k1_ios */ = {
 			isa = PBXGroup;
 			children = (
-				B3FB2F356440F1ABD6B9CC4D124F974A /* secp256k1.framework */,
+				8601C50988E4478A88CAE5EACEF09432 /* libsecp256k1-config.h */,
+				474F034AE8B8892AB5944F7A6916A0E3 /* contrib */,
+				26FC8DF6EBFC4A279D4E7438937361D2 /* include */,
+				74D826896C9143CC018E418857888E23 /* src */,
+				973564D4D40577729898393E8EBA2699 /* Support Files */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		90DD8AF33DAC0BB4549CA3F7A260C0E1 /* java */ = {
-			isa = PBXGroup;
-			children = (
-				59CA2ED2828EA7CDAAC2F900D615B887 /* org_bitcoin_NativeSecp256k1.h */,
-				0502D12BF7EAA5826728900661D3EC35 /* org_bitcoin_Secp256k1Context.h */,
-			);
-			name = java;
-			path = java;
-			sourceTree = "<group>";
-		};
-		970CDEC11CC6AE55941F811D6B22C869 /* java */ = {
-			isa = PBXGroup;
-			children = (
-				D8CF59CB7F2835AA0A8239EB1517C066 /* org_bitcoin_NativeSecp256k1.h */,
-				EACCD146BD4B666ED3DCEB11DC65DEA4 /* org_bitcoin_Secp256k1Context.h */,
-			);
-			name = java;
-			path = java;
-			sourceTree = "<group>";
-		};
-		99E9AD943163AA6D5B16E32E98EFEC53 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C48BAE996EE206C4982AE441DA85CA38 /* Pods_ios_secp256k1_Example.framework */,
-				CA2D7959EC4FA0351B6A1DBB09A43BD8 /* Pods_ios_secp256k1_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9D515AA7C9CB191B587B4F49FC2599B3 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				45343F072A8E4A25429FA72A03E7900A /* basic-config.h */,
-				F4D8BE598AFD2488983BE1A5B232FE56 /* bench.h */,
-				51573D04D1DB835050ECF037594C0E73 /* ecdsa.h */,
-				C8645F01FD765933D1601BF2D195E26C /* ecdsa_impl.h */,
-				F90A03129424236045C4357062D61844 /* eckey.h */,
-				D9EE5FDADDFAB8A84DFE9B219626EC84 /* eckey_impl.h */,
-				5A84286C1BD40DB058D7EE60B93A2036 /* ecmult.h */,
-				E09AA5809516C4A2B4B69A82D7B855C5 /* ecmult_const.h */,
-				387CE04CA6BB1102887A8F9F5D55D4B0 /* ecmult_const_impl.h */,
-				A5B7E53FC55CFF8D9365D86A0B4492C4 /* ecmult_gen.h */,
-				22D5D08674F6575CD8CF9962E23BCA8C /* ecmult_gen_impl.h */,
-				AF5544E9D8B30ACEA09F44FF7D04A82C /* ecmult_impl.h */,
-				1B78EEA9CDDD1116C7DCC91D1D0A6E3F /* field.h */,
-				D116746239EC85115C21CE78CE6BECDF /* field_10x26.h */,
-				CAEF429BC6E73FDBFD2329AE1152B561 /* field_10x26_impl.h */,
-				221108A655208DB07460170363E9D16D /* field_5x52.h */,
-				108613C3DD30E1DD6F5F5883849FB6A6 /* field_5x52_asm_impl.h */,
-				115DC46470D5AF8A11C925E6AB1F3791 /* field_5x52_impl.h */,
-				BF2832C0970CAEB5D2B3E004F0EEDD70 /* field_5x52_int128_impl.h */,
-				76B8CACAD65C7311E08981709E2E8E42 /* field_impl.h */,
-				0293460C9B1EABF71C6020C5CD21E19C /* group.h */,
-				979A4CE8933CA45476D7E08015F57226 /* group_impl.h */,
-				F4E6012BDD69A460D01EAAFACFC598B8 /* hash.h */,
-				F3CC66E3E892C67D4E482F29E05BE3C9 /* hash_impl.h */,
-				BF7772E051589770812487389A7266CA /* num.h */,
-				A0074D2A312586ED3885F2D215A4BB9D /* num_gmp.h */,
-				33CF89BC6B4225A415FAA5D334AD08B9 /* num_gmp_impl.h */,
-				811EFD7DAA00307DE15CF16867FF5243 /* num_impl.h */,
-				59B1382FCE7A5D2B54A02E01FDBE7E6C /* scalar.h */,
-				3C9582DDA370B8E87B109E00FDB7622B /* scalar_4x64.h */,
-				93911819BA9D6A09B0363EB963C918C9 /* scalar_4x64_impl.h */,
-				762102FD038357DD810E923614F6B03B /* scalar_8x32.h */,
-				6D30D6B6E38394A558BD9851D53A2ED7 /* scalar_8x32_impl.h */,
-				F9154E112B0A661FEC19122FAF4B2304 /* scalar_impl.h */,
-				E4E716D8FED8CDD5C23F845C53B6DDB4 /* scalar_low.h */,
-				48B7ACF5D8F5EF5A0405F9B395C7E4D9 /* scalar_low_impl.h */,
-				35B19AD72EDE7BE98E429DB5D5E91C4C /* scratch.h */,
-				BA93FED5227B012523217EF85ED6CEFF /* scratch_impl.h */,
-				C0DB25186F1E37B7E33605EBA5E6FF88 /* testrand.h */,
-				9F06EEAA7ACA91141DCE7CA422915E33 /* testrand_impl.h */,
-				D99766343C59D392963BC0E3A99051B2 /* util.h */,
-				90DD8AF33DAC0BB4549CA3F7A260C0E1 /* java */,
-				742DEFA6C339A9D3B3C2BB765CC76CD8 /* modules */,
-			);
-			name = src;
-			path = src;
-			sourceTree = "<group>";
-		};
-		9D84A5F3B4514C6E6560C861ACAC6766 /* modules */ = {
-			isa = PBXGroup;
-			children = (
-				295282B1A4FCA16B9FC9609953D3E1D8 /* ecdh */,
-				A1DC1AAD5B3F2CD1397535BC7E9AB0CD /* recovery */,
-			);
-			name = modules;
-			path = modules;
-			sourceTree = "<group>";
-		};
-		A1DC1AAD5B3F2CD1397535BC7E9AB0CD /* recovery */ = {
-			isa = PBXGroup;
-			children = (
-				A7B3EE82602E0AD6170A17070B2A2C2B /* main_impl.h */,
-				F22000B0053CF15B91247AEAFB7C7625 /* tests_impl.h */,
-			);
-			name = recovery;
-			path = recovery;
+			name = secp256k1_ios;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		A51E07F202D991801981E99C458DA73E /* Targets Support Files */ = {
@@ -387,16 +300,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BB452BED1DFF93962FEFF0F1DF919BA1 /* swsecp256k1 */ = {
+		B30E008AA284ED155CB910E45EE82914 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				56E6B77C5F571F3A740ADBDEC85B7FA1 /* Classes */,
-				E86ABBA577A3B4055B3C6B7523D9894C /* framework */,
-				86CFEEF6534AA849C78FF07F47FA34BF /* Frameworks */,
-				F3CF26E740F6F834D88F103BC3B8D4C6 /* secp256k1 */,
+				21237C9A496DEB199E5365BD35CA5B63 /* Pods_ios_secp256k1_Example.framework */,
+				AA6435173B3B94FCC6C4BAE43542558C /* Pods_ios_secp256k1_Tests.framework */,
+				F1C154391AC182201509CE2B218B828A /* secp256k1_ios.framework */,
 			);
-			name = swsecp256k1;
-			path = ../..;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -425,58 +336,12 @@
 			path = "Target Support Files/Pods-ios-secp256k1_Tests";
 			sourceTree = "<group>";
 		};
-		CA0E27E1A27A3936482F665B8A302074 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				2C62C381A8694CEE1048823578778371 /* secp256k1.h */,
-				8A4196E50379B42A16BBA2F0E909C9DE /* secp256k1_recovery.h */,
-			);
-			name = Headers;
-			path = Headers;
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		D9B9A34ACB2C4D514FAAB3F8D1A58143 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BB452BED1DFF93962FEFF0F1DF919BA1 /* swsecp256k1 */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		E2179391B308378C3D06B5A077873F4E /* A */ = {
-			isa = PBXGroup;
-			children = (
-				CA0E27E1A27A3936482F665B8A302074 /* Headers */,
-			);
-			name = A;
-			path = A;
-			sourceTree = "<group>";
-		};
-		E86ABBA577A3B4055B3C6B7523D9894C /* framework */ = {
-			isa = PBXGroup;
-			children = (
-				4D82DE0C6759CF5DC61468E701690BC2 /* swsecp256k1-umbrella.h */,
-				EEFB4E9FA4ED272AAF494F2005415F4D /* secp256k1.framework */,
-			);
-			name = framework;
-			path = swsecp256k1/framework;
-			sourceTree = "<group>";
-		};
-		EEFB4E9FA4ED272AAF494F2005415F4D /* secp256k1.framework */ = {
-			isa = PBXGroup;
-			children = (
-				020DE8DDC98D4F0DE5B7A374FDDF336B /* Versions */,
-			);
-			name = secp256k1.framework;
-			path = secp256k1.framework;
 			sourceTree = "<group>";
 		};
 		F1DD45F1D1B8C68CFBCBBC061CCB3623 /* Pods-ios-secp256k1_Example */ = {
@@ -497,76 +362,56 @@
 			path = "Target Support Files/Pods-ios-secp256k1_Example";
 			sourceTree = "<group>";
 		};
-		F3CF26E740F6F834D88F103BC3B8D4C6 /* secp256k1 */ = {
-			isa = PBXGroup;
-			children = (
-				6162071B090199762757B67E9623EEC6 /* contrib */,
-				2AF692963F64E50185147DD56052C9F4 /* include */,
-				9D515AA7C9CB191B587B4F49FC2599B3 /* src */,
-			);
-			name = secp256k1;
-			path = swsecp256k1/secp256k1;
-			sourceTree = "<group>";
-		};
-		FEC2339820C88C4929F42E9FFE1D8FDD /* src */ = {
-			isa = PBXGroup;
-			children = (
-				40F29401EDD4CB43A713CAE4E25DA2F0 /* basic-config.h */,
-				A30C09F481C4B61683DBED7EBE1E5B24 /* bench.h */,
-				C36291F4A4E7E9A17C6B59ECE70FB24B /* ecdsa.h */,
-				0AD5B62C8038DE73913E568B9FDEB202 /* ecdsa_impl.h */,
-				067DD48F87A106B333375AA1593923F6 /* eckey.h */,
-				D79EBECCE571C2890AEFFEFF79B099A5 /* eckey_impl.h */,
-				5FED34D748795810CECAD837B0E5F06D /* ecmult.h */,
-				C3CD5B4831F7321E7FFA365038AEA9C3 /* ecmult_const.h */,
-				F0E61F97D8BF21B918CA54E3871BD4DE /* ecmult_const_impl.h */,
-				744E12CCFAC533A415C337C477901EC3 /* ecmult_gen.h */,
-				A8A75702E2B11061CFC88DFC3E953946 /* ecmult_gen_impl.h */,
-				025867E32388BA6E6249AD4E5B7B4856 /* ecmult_impl.h */,
-				C8A8F3D60353C2011EEABC6616DB4D53 /* field.h */,
-				9962B502754BB10740E53D581BC14662 /* field_10x26.h */,
-				63B731D06A6CAEE1F351B6E58220619A /* field_10x26_impl.h */,
-				A31E9E99B209521BBE2334D5E2F1D6A4 /* field_5x52.h */,
-				B40032EF2E11CE5D1497781B9D6CF338 /* field_5x52_asm_impl.h */,
-				68320B8A2AAAE46D90212E0188D0FBE1 /* field_5x52_impl.h */,
-				3D847EEEFC83647701A23B3E2C79DB42 /* field_5x52_int128_impl.h */,
-				437C239F7BBABE82649274672DFE5C1F /* field_impl.h */,
-				79026C463D8E7CE69538C28D519E3235 /* group.h */,
-				1404ED27A4E93D503B31FE0F1B3A4606 /* group_impl.h */,
-				98F2E8575ED5DFBF886149406FD6C69F /* hash.h */,
-				D46740458B08D30401F614A1903017FF /* hash_impl.h */,
-				27A2E80282C54DC143CC73F4C188B9FE /* num.h */,
-				4F36F551D877AA5F9F1B00F6FF4C00D5 /* num_gmp.h */,
-				7F6D45C1C407B69EAF71915F04584224 /* num_gmp_impl.h */,
-				484A8DDCD9FBD5B954D50CB5D6393168 /* num_impl.h */,
-				E68462E6705ABA2B5A0B8586D110F3C8 /* scalar.h */,
-				B43C4A553ED955ACC3DFFB6E6A5417DD /* scalar_4x64.h */,
-				0D5FA561B8F207E664632478BEB1D930 /* scalar_4x64_impl.h */,
-				2AEAC079C8778FA0536FFEB38A552F1E /* scalar_8x32.h */,
-				7A3A7DDCB3AC318437E5E2C3EA1A57C2 /* scalar_8x32_impl.h */,
-				E443734DEAEA968FBA2511899850F318 /* scalar_impl.h */,
-				D7A83EF676944BEF0503349D86486F52 /* scalar_low.h */,
-				614F6B0DD402195390C2676CCD3095A0 /* scalar_low_impl.h */,
-				80C20AD466C3915982C3509146A963FF /* scratch.h */,
-				6A49A00B7C7DE7CBADE18B665B48B5EB /* scratch_impl.h */,
-				18537A878CEA8A17E1DE1EFD6A5304A6 /* testrand.h */,
-				AC3E62981071D1BB8D11E44834200E7D /* testrand_impl.h */,
-				FF5EBE3C97AD95AE948371D90B107FB4 /* util.h */,
-				970CDEC11CC6AE55941F811D6B22C869 /* java */,
-				9D84A5F3B4514C6E6560C861ACAC6766 /* modules */,
-			);
-			name = src;
-			path = src;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A3A058A14076119CBCE03D26323F5AF1 /* Headers */ = {
+		04079DECF21F8E3879CE75B53043F714 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A15126B88D07FF586D4E24C4EB291F9B /* Pods-ios-secp256k1_Example-umbrella.h in Headers */,
+				9432663F935139B9ADA045FB38363358 /* basic-config.h in Headers */,
+				7B32865654FA88E0D862B4F97E65AC5D /* ecdsa.h in Headers */,
+				F0C86625B327A0D29E3728A82E0E2165 /* ecdsa_impl.h in Headers */,
+				F4F4499DED69AE63572071FA2A909BD9 /* eckey.h in Headers */,
+				ACA83EEB4FE8A5861D3D5071513D3341 /* eckey_impl.h in Headers */,
+				933670BFA2537740B82AB66E0FA85AB0 /* ecmult.h in Headers */,
+				52C9D9818E156C246042CE9B3E88CCF7 /* ecmult_const.h in Headers */,
+				D4E6CBC8D46FCF940C3C1A291A84D352 /* ecmult_const_impl.h in Headers */,
+				F84A5B258E9452894179612D1E753C8A /* ecmult_gen.h in Headers */,
+				D789622BA9BB95488C9DD67203582BB5 /* ecmult_gen_impl.h in Headers */,
+				2FE852EF9096AADE6E0A70057EFD57A6 /* ecmult_impl.h in Headers */,
+				E74B28C282FCEFD21A66E698664A89F2 /* field.h in Headers */,
+				5020AA75F6BEE758BA17BC5A31D25D0D /* field_10x26.h in Headers */,
+				314F502C3D05EE007F400E166905DB8F /* field_10x26_impl.h in Headers */,
+				6798CD53837972434F3F7C3EE2E36A8C /* field_5x52.h in Headers */,
+				75419391E147C0BE3051692C9EB9F76C /* field_5x52_asm_impl.h in Headers */,
+				0BD1EEE05C849B24D6DE47B5940F4F2E /* field_5x52_impl.h in Headers */,
+				DAFB65D0261CEFD7E44B6F45F69BDAF9 /* field_5x52_int128_impl.h in Headers */,
+				D71B0912665A95F59A0350E87F0DF437 /* field_impl.h in Headers */,
+				4C61636BB4723CE7AAB895FB14BD284D /* group.h in Headers */,
+				27D31877576AC1B0F03AC8C4F673C9F7 /* group_impl.h in Headers */,
+				19014428C03E51B140CB9B07748EC44C /* hash.h in Headers */,
+				224977DECDC60DD4DA3CA850D5174C1C /* hash_impl.h in Headers */,
+				6D489FF5C693DE1152C0564F95A657AC /* lax_der_parsing.h in Headers */,
+				5D86019C3A65322893EA15C080E3433C /* lax_der_privatekey_parsing.h in Headers */,
+				68AFD562DAF3A841D4E59E9F1D8FBFE2 /* libsecp256k1-config.h in Headers */,
+				C1C4B8D899B5993E8F38AC586489BF6E /* num.h in Headers */,
+				01CFB5F84B81B5DDE976E557854814F4 /* num_gmp.h in Headers */,
+				0861424F4E92C6484A2E595F0B8EB51C /* num_gmp_impl.h in Headers */,
+				E05916D87472EF96C542B755BA0B582E /* num_impl.h in Headers */,
+				86943F55001CEE3AFBD32C08C321125D /* scalar.h in Headers */,
+				1B16A650610CA3C39DE309029E75F9AC /* scalar_4x64.h in Headers */,
+				593B8607041F35A3AC3A1D7645A09808 /* scalar_4x64_impl.h in Headers */,
+				D638C493CE7730798AC70674E59D0AF4 /* scalar_8x32.h in Headers */,
+				0F5B562D8512FB2C8DDDB8A71D225A20 /* scalar_8x32_impl.h in Headers */,
+				EC5A3ED95A45B8AD71CB742C6FF60EB6 /* scalar_impl.h in Headers */,
+				FE8D2A5D70760424DDD4D9D96CC7C608 /* scalar_low.h in Headers */,
+				2E44AE9F3F8ACBA43D51E6A7706B3DBA /* scalar_low_impl.h in Headers */,
+				38B4D65A8C68D7E703B1DD5268E6F4D0 /* secp256k1.h in Headers */,
+				08F12C0664CF7D2750A9AB0A4F12FE8B /* secp256k1_ecdh.h in Headers */,
+				59D0C1AB2642989D730F64692E0A7353 /* secp256k1_ios-umbrella.h in Headers */,
+				9E00E6653905EEB41E38D6C45BB84E21 /* secp256k1_recovery.h in Headers */,
+				E02864C610777F1B56FAEB23201A0356 /* util.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -578,9 +423,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D93A1FEA4421DCA91C221369D143ACBF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B23E522682BC4ADC789EF5B1E03C1B /* Pods-ios-secp256k1_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2C53912F0BE7164BFC513EDC81531593 /* secp256k1_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68117313BF5E98BDF26E8B4DB6607F57 /* Build configuration list for PBXNativeTarget "secp256k1_ios" */;
+			buildPhases = (
+				CF068AF5082B90452AA1032587A7905C /* Sources */,
+				3BB3F6C70CB1F772B738BCB787227E69 /* Frameworks */,
+				04079DECF21F8E3879CE75B53043F714 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = secp256k1_ios;
+			productName = secp256k1_ios;
+			productReference = F1C154391AC182201509CE2B218B828A /* secp256k1_ios.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		342C6040D9FE22B0D3D3BF82D16C75D1 /* Pods-ios-secp256k1_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8762D4C0F5829E18F3031651211D1EE /* Build configuration list for PBXNativeTarget "Pods-ios-secp256k1_Tests" */;
@@ -595,24 +465,25 @@
 			);
 			name = "Pods-ios-secp256k1_Tests";
 			productName = "Pods-ios-secp256k1_Tests";
-			productReference = CA2D7959EC4FA0351B6A1DBB09A43BD8 /* Pods_ios_secp256k1_Tests.framework */;
+			productReference = AA6435173B3B94FCC6C4BAE43542558C /* Pods_ios_secp256k1_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4358CAF4161C99BF3846B3208EE1ED18 /* Pods-ios-secp256k1_Example */ = {
+		B0997BF4E40FE69B4A32EBCF024FCEC1 /* Pods-ios-secp256k1_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70CAE7DCF0FD053D60A045DC77049FE2 /* Build configuration list for PBXNativeTarget "Pods-ios-secp256k1_Example" */;
+			buildConfigurationList = 32D6731220C9F6C4EF00C03D8E361BCC /* Build configuration list for PBXNativeTarget "Pods-ios-secp256k1_Example" */;
 			buildPhases = (
-				2421BD145AB3263AE0E0C5F339EFD0FC /* Sources */,
-				F4AB7A5A2B07DF21869C4DBA4906AF1B /* Frameworks */,
-				A3A058A14076119CBCE03D26323F5AF1 /* Headers */,
+				F5686AD3937EA63B308519567AAFEBC3 /* Sources */,
+				8796742A339CF5C0F41476550FE00181 /* Frameworks */,
+				D93A1FEA4421DCA91C221369D143ACBF /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A56F9A654B16DAC85463609F7F85AEE4 /* PBXTargetDependency */,
 			);
 			name = "Pods-ios-secp256k1_Example";
 			productName = "Pods-ios-secp256k1_Example";
-			productReference = C48BAE996EE206C4982AE441DA85CA38 /* Pods_ios_secp256k1_Example.framework */;
+			productReference = 21237C9A496DEB199E5365BD35CA5B63 /* Pods_ios_secp256k1_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -632,25 +503,18 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 99E9AD943163AA6D5B16E32E98EFEC53 /* Products */;
+			productRefGroup = B30E008AA284ED155CB910E45EE82914 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4358CAF4161C99BF3846B3208EE1ED18 /* Pods-ios-secp256k1_Example */,
+				B0997BF4E40FE69B4A32EBCF024FCEC1 /* Pods-ios-secp256k1_Example */,
 				342C6040D9FE22B0D3D3BF82D16C75D1 /* Pods-ios-secp256k1_Tests */,
+				2C53912F0BE7164BFC513EDC81531593 /* secp256k1_ios */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2421BD145AB3263AE0E0C5F339EFD0FC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				971AC5CF62B6F74171966C83F3896FAB /* Pods-ios-secp256k1_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BA46A814B429FA56F5A280C6E111D5A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -659,12 +523,70 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CF068AF5082B90452AA1032587A7905C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB6F54BFEAC69163D6FEA834E7C45EA /* lax_der_parsing.c in Sources */,
+				2D0A54460776FDCFD014F50B203B82D5 /* lax_der_privatekey_parsing.c in Sources */,
+				FA7B01429573DCC495EFB2F01D280ADE /* secp256k1.c in Sources */,
+				D1F29FAFB852261E96CFABD7A7590167 /* secp256k1_ios-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5686AD3937EA63B308519567AAFEBC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FDB12A4B6E3050AADA022C0F667AD8 /* Pods-ios-secp256k1_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		A56F9A654B16DAC85463609F7F85AEE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = secp256k1_ios;
+			target = 2C53912F0BE7164BFC513EDC81531593 /* secp256k1_ios */;
+			targetProxy = 5F62A897E007E9E89345825A4A230643 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		25489122C4F696F36211D52ABE83E399 /* Release */ = {
+		2A2B691318193AEAFA0C2D1530C48800 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E11FF51B6F0ED4ED3F7BE4915881FF1 /* Pods-ios-secp256k1_Tests.release.xcconfig */;
+			baseConfigurationReference = BC808B320FA5753D1CE78A9FD4FF421E /* secp256k1_ios.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/secp256k1_ios/secp256k1_ios-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/secp256k1_ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/secp256k1_ios/secp256k1_ios.modulemap";
+				PRODUCT_NAME = secp256k1_ios;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5568E9324741F8FC2781B2654616B3B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE7E3BC694BE51EFEC9E21D7EC2822C4 /* Pods-ios-secp256k1_Tests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -677,7 +599,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ios-secp256k1_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ios-secp256k1_Tests/Pods-ios-secp256k1_Tests.modulemap";
@@ -689,46 +611,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		61FEF96D9B7F243F388F2D81632F742B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9AFF4E3FC320BA9ABD4A4CACE62B805 /* Pods-ios-secp256k1_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ios-secp256k1_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ios-secp256k1_Example/Pods-ios-secp256k1_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ios_secp256k1_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+		6F9224530522DD3C735EC96CF142642E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -774,7 +662,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
@@ -783,7 +671,103 @@
 			};
 			name = Release;
 		};
-		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+		7074ADCA878E2BC897A928EF33DCD306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D8854D0764B86E8E2FD34ED62B0F5E8 /* Pods-ios-secp256k1_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ios-secp256k1_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ios-secp256k1_Example/Pods-ios-secp256k1_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ios_secp256k1_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A697CCF42B81B2C3EAD2814E54979C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC808B320FA5753D1CE78A9FD4FF421E /* secp256k1_ios.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/secp256k1_ios/secp256k1_ios-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/secp256k1_ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/secp256k1_ios/secp256k1_ios.modulemap";
+				PRODUCT_NAME = secp256k1_ios;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		902F84B1366452D44D9A0578AF70CC53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9AFF4E3FC320BA9ABD4A4CACE62B805 /* Pods-ios-secp256k1_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ios-secp256k1_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ios-secp256k1_Example/Pods-ios-secp256k1_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ios_secp256k1_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -832,7 +816,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -843,9 +827,9 @@
 			};
 			name = Debug;
 		};
-		E5E48E72E1A95441A27A09D18C449140 /* Debug */ = {
+		D563988052AC8C84E0894960D09E2879 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE7E3BC694BE51EFEC9E21D7EC2822C4 /* Pods-ios-secp256k1_Tests.debug.xcconfig */;
+			baseConfigurationReference = 4E11FF51B6F0ED4ED3F7BE4915881FF1 /* Pods-ios-secp256k1_Tests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -858,7 +842,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ios-secp256k1_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ios-secp256k1_Tests/Pods-ios-secp256k1_Tests.modulemap";
@@ -870,42 +854,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		ED51B476C4489D1A178914BDE93A1CB1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D8854D0764B86E8E2FD34ED62B0F5E8 /* Pods-ios-secp256k1_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ios-secp256k1_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ios-secp256k1_Example/Pods-ios-secp256k1_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ios_secp256k1_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -913,17 +866,26 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
-				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
+				6F9224530522DD3C735EC96CF142642E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70CAE7DCF0FD053D60A045DC77049FE2 /* Build configuration list for PBXNativeTarget "Pods-ios-secp256k1_Example" */ = {
+		32D6731220C9F6C4EF00C03D8E361BCC /* Build configuration list for PBXNativeTarget "Pods-ios-secp256k1_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED51B476C4489D1A178914BDE93A1CB1 /* Debug */,
-				61FEF96D9B7F243F388F2D81632F742B /* Release */,
+				7074ADCA878E2BC897A928EF33DCD306 /* Debug */,
+				902F84B1366452D44D9A0578AF70CC53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68117313BF5E98BDF26E8B4DB6607F57 /* Build configuration list for PBXNativeTarget "secp256k1_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2B691318193AEAFA0C2D1530C48800 /* Debug */,
+				8A697CCF42B81B2C3EAD2814E54979C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -931,8 +893,8 @@
 		B8762D4C0F5829E18F3031651211D1EE /* Build configuration list for PBXNativeTarget "Pods-ios-secp256k1_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E5E48E72E1A95441A27A09D18C449140 /* Debug */,
-				25489122C4F696F36211D52ABE83E399 /* Release */,
+				5568E9324741F8FC2781B2654616B3B1 /* Debug */,
+				D563988052AC8C84E0894960D09E2879 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
