@@ -18,11 +18,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   secp256k1_ios:
-    :commit: 6bb9dddaaa53aad0dc67e72aa749500e907fb55c
+    :commit: 8ad3e58144aa8475a512de6539837e81bf4269da
     :git: https://github.com/shamatar/secp256k1_ios.git
 
 SPEC CHECKSUMS:
-  secp256k1_ios: c3c1e459f0920dbbf0ddd5b24c09d6ce60b1fcba
+  secp256k1_ios: f64d5b9a9a1cb4a6f5d0bd8ac6a63e397fd06a89
 
 PODFILE CHECKSUM: 6f2e207ccac7de86acd78da9b8cb883e5b3cf43e
 
