@@ -19,23 +19,32 @@
   },
   "pod_target_xcconfig": {
     "OTHER_SWIFT_FLAGS": "$(inherited)",
-    "OTHER_CFLAGS": "-DHAVE_CONFIG_H",
-    "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/secp256k1_ios/\""
+    "OTHER_CFLAGS": "-DHAVE_CONFIG_H=1",
+    "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/../../secp256k1_ios/\""
   },
+  "private_header_files": "secp256k1_ios/*.h",
   "source_files": "secp256k1_ios/libsecp256k1-config.h",
+  "xcconfig": {
+    "OTHER_SWIFT_FLAGS": "$(inherited)",
+    "OTHER_CFLAGS": "-DHAVE_CONFIG_H=1",
+    "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/../../secp256k1_ios/\""
+  },
   "subspecs": [
     {
       "name": "src",
       "source_files": "secp256k1_ios/src/*.{c,h}",
+      "private_header_files": "secp256k1_ios/src/*.h",
       "subspecs": [
         {
           "name": "modules",
+          "private_header_files": "secp256k1_ios/src/modules/*.h",
           "source_files": "secp256k1_ios/src/modules/*.{c,h}"
         }
       ]
     },
     {
       "name": "contrib",
+      "private_header_files": "secp256k1_ios/contrib/*.h",
       "source_files": "secp256k1_ios/contrib/*.{c,h}"
     },
     {

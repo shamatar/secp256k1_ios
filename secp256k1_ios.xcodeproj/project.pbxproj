@@ -50,7 +50,6 @@
 		81ABBC5E1FD8AD2900D9D501 /* scalar_8x32.h in Headers */ = {isa = PBXBuildFile; fileRef = 81ABBC1C1FD8AD2900D9D501 /* scalar_8x32.h */; };
 		81ABBC5F1FD8AD2900D9D501 /* scalar_low.h in Headers */ = {isa = PBXBuildFile; fileRef = 81ABBC1D1FD8AD2900D9D501 /* scalar_low.h */; };
 		81ABBC601FD8AD2900D9D501 /* eckey.h in Headers */ = {isa = PBXBuildFile; fileRef = 81ABBC1E1FD8AD2900D9D501 /* eckey.h */; };
-		81E9061F1FEA9EF1005BF888 /* secp256k1_ios.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 81E9061E1FEA9EF1005BF888 /* secp256k1_ios.podspec */; };
 		81E906251FEAA1CA005BF888 /* lax_der_parsing.h in Headers */ = {isa = PBXBuildFile; fileRef = 81E906211FEAA1CA005BF888 /* lax_der_parsing.h */; };
 		81E906261FEAA1CA005BF888 /* lax_der_privatekey_parsing.c in Sources */ = {isa = PBXBuildFile; fileRef = 81E906221FEAA1CA005BF888 /* lax_der_privatekey_parsing.c */; };
 		81E906271FEAA1CA005BF888 /* lax_der_parsing.c in Sources */ = {isa = PBXBuildFile; fileRef = 81E906231FEAA1CA005BF888 /* lax_der_parsing.c */; };
@@ -105,7 +104,6 @@
 		81ABBC1E1FD8AD2900D9D501 /* eckey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eckey.h; sourceTree = "<group>"; };
 		81ABBC621FD8ADDD00D9D501 /* secp256k1_ios.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = secp256k1_ios.modulemap; sourceTree = "<group>"; };
 		81ABBC631FD8AE4C00D9D501 /* secp256k1_ios.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secp256k1_ios.pch; sourceTree = "<group>"; };
-		81E9061E1FEA9EF1005BF888 /* secp256k1_ios.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = secp256k1_ios.podspec; sourceTree = "<group>"; };
 		81E906211FEAA1CA005BF888 /* lax_der_parsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lax_der_parsing.h; sourceTree = "<group>"; };
 		81E906221FEAA1CA005BF888 /* lax_der_privatekey_parsing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lax_der_privatekey_parsing.c; sourceTree = "<group>"; };
 		81E906231FEAA1CA005BF888 /* lax_der_parsing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lax_der_parsing.c; sourceTree = "<group>"; };
@@ -150,7 +148,6 @@
 				81ABBBCD1FD8AD0D00D9D501 /* Info.plist */,
 				81ABBC621FD8ADDD00D9D501 /* secp256k1_ios.modulemap */,
 				81ABBC631FD8AE4C00D9D501 /* secp256k1_ios.pch */,
-				81E9061E1FEA9EF1005BF888 /* secp256k1_ios.podspec */,
 				81E9063F1FEAA879005BF888 /* libsecp256k1-config.h */,
 			);
 			path = secp256k1_ios;
@@ -359,7 +356,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81E9061F1FEA9EF1005BF888 /* secp256k1_ios.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

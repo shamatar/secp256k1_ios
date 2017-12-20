@@ -12,6 +12,11 @@
 #define USE_NUM_NONE 1
 #define USE_FIELD_INV_BUILTIN 1
 #define USE_SCALAR_INV_BUILTIN 1
+#ifdef _BIT64
+#define USE_FIELD_5X52 1
+#define USE_SCALAR_4X64 1
+#else
 #define USE_FIELD_10X26 1
 #define USE_SCALAR_8X32 1
+#endif
 #endif /* libsecp256k1_config_h */
