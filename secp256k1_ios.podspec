@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "secp256k1_ios"
-s.version          = "0.0.2"
+s.version          = "0.0.3"
 s.summary          = "Reference sepc256k1 implementation as pod"
 
 s.description      = <<-DESC
@@ -17,26 +17,23 @@ s.module_name      = 'secp256k1_ios'
 s.ios.deployment_target = "9.0"
 s.osx.deployment_target = "10.10"
 s.pod_target_xcconfig = {
-	# 'OTHER_SWIFT_FLAGS' => '$(inherited)',
 	'OTHER_CFLAGS' => '-DHAVE_CONFIG_H=1',
     'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/secp256k1_ios/secp256k1_ios/"'
 }
 s.source_files = "secp256k1_ios/libsecp256k1-config.h"
 s.private_header_files = "secp256k1_ios/libsecp256k1-config.h"
-# s.public_header_files = 'secp256k1_ios/include/*.h'
 
-s.xcconfig = {
-	# 'OTHER_SWIFT_FLAGS' => '$(inherited)',
-	'OTHER_CFLAGS' => '-DHAVE_CONFIG_H=1',
-    'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/secp256k1_ios/secp256k1_ios/"'
-}
+# s.xcconfig = {
+# 	'OTHER_CFLAGS' => '-DHAVE_CONFIG_H=1',
+#     'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/secp256k1_ios/secp256k1_ios/"'
+# }
 
 s.subspec 'src' do |ss|
     ss.source_files = 'secp256k1_ios/src/*.{c,h}'
     ss.private_header_files = 'secp256k1_ios/src/*.h'
     ss.subspec 'modules' do |sss|
-    	sss.source_files = 'secp256k1_ios/src/modules/*.{c,h}'
-        sss.private_header_files = 'secp256k1_ios/src/modules/*.h'
+    	sss.source_files = 'secp256k1_ios/src/modules/**/*.{c,h}'
+        sss.private_header_files = 'secp256k1_ios/src/modules/**/*.h'
 end
 
 end
