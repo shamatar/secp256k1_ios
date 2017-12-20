@@ -21,11 +21,10 @@
   "pod_target_xcconfig": {
     "OTHER_SWIFT_FLAGS": "$(inherited)",
     "OTHER_CFLAGS": "-DHAVE_CONFIG_H=1",
-    "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/../../secp256k1_ios/\""
+    "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/secp256k1_ios/\""
   },
   "source_files": "secp256k1_ios/libsecp256k1-config.h",
   "private_header_files": "secp256k1_ios/libsecp256k1-config.h",
-  "public_header_files": "secp256k1_ios/include/*.h",
   "subspecs": [
     {
       "name": "src",
@@ -46,8 +45,7 @@
     },
     {
       "name": "include",
-      "source_files": "secp256k1_ios/include/*.{h}",
-      "private_header_files": "secp256k1_ios/include/*.h"
+      "source_files": "secp256k1_ios/include/*.{h}"
     }
   ]
 }
