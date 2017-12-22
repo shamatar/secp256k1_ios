@@ -7,63 +7,111 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		013B5F2BEB9A28AEBF75BC15B55979B6 /* lax_der_parsing.c in Sources */ = {isa = PBXBuildFile; fileRef = A51EDCC1F29E6FE4115CEA76D03466B1 /* lax_der_parsing.c */; };
+		0471B4E7C5CBE864CCC7482A770A68BC /* field_10x26_impl.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = 33D7B31961E8D3A22E010A4DE7D6E532 /* field_10x26_impl.h */; };
 		04C9CF375744BFF6FF1A57EC63C6E090 /* Pods-ios-secp256k1_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F21188042EE045BA14D5BCED07D520 /* Pods-ios-secp256k1_Tests-dummy.m */; };
-		057EE2D10B1A9F58793C1AC1DCB5C688 /* secp256k1_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = B7BE5B249AE022E028674E3E6492D1A5 /* secp256k1_ios.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		094A3FA250EBB406134ECF6CCA480AB7 /* scalar_8x32.h in Headers */ = {isa = PBXBuildFile; fileRef = 27F1C2A340FC5D872FB43D64CD31A058 /* scalar_8x32.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		09DB32BABEB865B7DDBE09ADD80CF2B5 /* ecmult_gen_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FD6FD1724A6FF24F82BCBEA8BFD6439 /* ecmult_gen_impl.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0AD992B04E035D5D6C6F8A478C937183 /* num_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = C88E12AE91EB18B872F74F6E34BCA5EA /* num_impl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		05A9F013D45860BF7FAA623901E6BA58 /* field_5x52.h in Headers */ = {isa = PBXBuildFile; fileRef = E0DB71E38E9B1C88F3FF1A4F59017C43 /* field_5x52.h */; };
+		0ACDBB5A7EBCCBCD783428B653A8A34F /* group_impl.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = 47816532202EF5FA7136433ECEE9F930 /* group_impl.h */; };
+		0E07F82AA6355ACA8197A4CD60CC719D /* scratch.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = 08C6E33E73B1B68D2335465E5DE426DF /* scratch.h */; };
+		0EA7C79B228CDFBE3B498CCB0A3924D3 /* ecmult_const.h in Headers */ = {isa = PBXBuildFile; fileRef = F1004C5CA2FC6B09176CFDF860284963 /* ecmult_const.h */; };
+		101289C42D29DF3738EB149A50F404FC /* ecmult_gen.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = 692E8DE583648CCD1A5C2BD6489EC1C1 /* ecmult_gen.h */; };
 		108311EA5575F1E6D5EE19CCC109AA17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		12D3341DCF025EA96F148D3FC961D2BE /* main_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = C1A35F3AC8604C7789454CC5680A3D12 /* main_impl.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		13F246839BD35DA8F9969E59E255E455 /* libsecp256k1-config.h in Headers */ = {isa = PBXBuildFile; fileRef = 010D0A0EA3DA356D4F966ABDDA2AFA39 /* libsecp256k1-config.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		16CC4576623267CF121BD255B398DFE1 /* secp256k1.h in Headers */ = {isa = PBXBuildFile; fileRef = B7325A3804B8F28758EDC118506429CF /* secp256k1.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		17C0C9ADAAE594380804E02788B2CE87 /* group_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 14A133B85830D15BD5850FFC19D0B0FF /* group_impl.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		225F5954261EB8BF799AC86D53016F73 /* field_5x52_int128_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 43636F883EFC652D40BD884B424CD5AD /* field_5x52_int128_impl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		13426B5AE6001BAD84866276E7505C74 /* ecmult_gen_impl.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = 024E6C874A35A994F1DAECA99AA25808 /* ecmult_gen_impl.h */; };
+		13A414FD51DA2B4A6EF817983CE8C432 /* scalar_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = D7AF13D88474818927B391923A83258D /* scalar_impl.h */; };
+		13C8F3879E3A6F3C7424C0A36C4AFB75 /* eckey.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = 0DC76A7E072783D71062D07A933EEB72 /* eckey.h */; };
+		168882D7C5034B335FE7F8B640606E15 /* ecmult_const_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = B2BD700E89F0717EDE9F9F177E7E530E /* ecmult_const_impl.h */; };
+		1B46C063EB725BAA3A98E5228191B01A /* libsecp256k1-config.h in Headers */ = {isa = PBXBuildFile; fileRef = 651DBF6626C7D5F624A167325CB09E00 /* libsecp256k1-config.h */; };
+		1C9477500AE9D2D430CE5F67AEFDDE5C /* secp256k1_ecdh.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = E707A80EB12A364E231AEED10F3DBA32 /* secp256k1_ecdh.h */; };
+		1EFC151D7ECF9D4885B058C5FA9B764D /* secp256k1.h in Headers */ = {isa = PBXBuildFile; fileRef = F9BFD3E46BBAA4A90E83FA77B90CBC28 /* secp256k1.h */; };
+		20A752E206504401642F55422BED53F5 /* field_5x52_int128_impl.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = 63DC095671EB5252952937F1D28FF95E /* field_5x52_int128_impl.h */; };
+		20F8CF8C3C4A3490D080A63757922F7D /* hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B464D978BAF23F93381B03771EC0F64 /* hash.h */; };
+		2608532E3A93AB6E2C6555FBB40960F5 /* util.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = 77BE3BF8E0B802820BE72D758DE385C4 /* util.h */; };
 		27D58BACB50093AD437D6A6C32EF8DD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		2847D3D6C5D2A06000EF4581C1666DA0 /* ecmult_const.h in Headers */ = {isa = PBXBuildFile; fileRef = FE3E42876EDC99C4DCBE07A32A32BF24 /* ecmult_const.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2BB6F54BFEAC69163D6FEA834E7C45EA /* lax_der_parsing.c in Sources */ = {isa = PBXBuildFile; fileRef = 94005EA9F7A542248FEC18B2A33A1D22 /* lax_der_parsing.c */; };
-		2D0A54460776FDCFD014F50B203B82D5 /* lax_der_privatekey_parsing.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E955B91F604E927177C061F71B43A57 /* lax_der_privatekey_parsing.c */; };
-		35EE9D857A8329426336354CCA2CBDE2 /* scalar_8x32_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = CF2D5344FD80D38BA55244E624F19B26 /* scalar_8x32_impl.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		37C7254B5C0F3470F9198E69C173D45A /* field_10x26_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 64F6B4523006CEAF47C49B88B2C327A7 /* field_10x26_impl.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3811973A76E76C9ED504FD12127F10D1 /* ecdsa_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0626782AF2C9B74E85BF2D4D5C5D800B /* ecdsa_impl.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3E97ADE8507932AED9F41B067759977D /* field_5x52_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = BA12B9C8DCD42111DF355410D295465D /* field_5x52_impl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2B529EE9F53427BA339691057CBF15E6 /* scratch_impl.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = D8390D3BE50BE595A56DC88C2E17FF91 /* scratch_impl.h */; };
+		3B757C650E073B9A7C009489734046A7 /* secp256k1.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = F9BFD3E46BBAA4A90E83FA77B90CBC28 /* secp256k1.h */; };
+		3BFD8C6DEB69955B7F6E1B47F96C854B /* field.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CE053840C4608F977E881970A0F0EAD /* field.h */; };
+		3DB64BE7246E5A5D42147F6B80E15236 /* group.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = 3F9484B6DE189EE90684483C20FB5DB8 /* group.h */; };
+		42A22D8B17969380FDFBDD66B9194BAD /* scalar_8x32_impl.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = 8359BBECCDA8711B4A6D05E9CD40192E /* scalar_8x32_impl.h */; };
+		43584494C38004EE79B2D621B5F13477 /* ecmult_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC693BFED10BB5911D0F82A17B441CB /* ecmult_impl.h */; };
+		48132B0163CCE0AA5A0D7A1D5E95251B /* scalar_low.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EE27F47604C9C665DD20A11312E06EC /* scalar_low.h */; };
 		49C76CB99BF4B883F1D39E3F7ECEE4D1 /* Pods-ios-secp256k1_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16D13297E49C77465FFA8F1E9A4FF8E9 /* Pods-ios-secp256k1_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4CE2F6AC4EBBD79EA2EB6413E01EB076 /* basic-config.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EF615225752995D8EA8EC64ADB1BB53 /* basic-config.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4E61E7E6B2C5DC346BAB645AFFE730DD /* group.h in Headers */ = {isa = PBXBuildFile; fileRef = BEFF835D614D32C69051ECA6B6266BAF /* group.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4A73B19F8B597C5AE31ECE4313146CD6 /* field_5x52_impl.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = 4B4314A6A7E3FB1EAC47BB19D1EC39F2 /* field_5x52_impl.h */; };
+		4E1E720793739D05350DCCC75E724933 /* ecmult_gen.h in Headers */ = {isa = PBXBuildFile; fileRef = 692E8DE583648CCD1A5C2BD6489EC1C1 /* ecmult_gen.h */; };
+		50735B7D2EF1F35EA2B8D62E31A3E9E5 /* field_5x52_int128_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 63DC095671EB5252952937F1D28FF95E /* field_5x52_int128_impl.h */; };
+		51DF1E0B30482CE355E04E05E678F8E9 /* scalar_4x64.h in Headers */ = {isa = PBXBuildFile; fileRef = 82C5506AF03547F4B746CDDFF689D4DB /* scalar_4x64.h */; };
 		53B23E522682BC4ADC789EF5B1E03C1B /* Pods-ios-secp256k1_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3934A5DD6376283B8165F4C037DDE9F6 /* Pods-ios-secp256k1_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56CCFABF53E2B27C75A7059699D6500F /* hash_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B238EF550A2E3517C6B15F06535A13F /* hash_impl.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		59C4E30A7721EE083CFE44BFD666A704 /* eckey_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 7974B2BA99E32BCC658AB1409BB8163E /* eckey_impl.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		63435B429BED96383B8F3D4B95330691 /* secp256k1_ecdh.h in Headers */ = {isa = PBXBuildFile; fileRef = CA55FAE8819325BD5F86B69438EF6DEE /* secp256k1_ecdh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66DAD32D7DDC68F804DD3DF1DE2CDFBB /* ecdsa.h in Headers */ = {isa = PBXBuildFile; fileRef = 0359897BE6F32D1CF9F44C3096DD3F9B /* ecdsa.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55D7113B7B22235223C6C64A29845444 /* ecmult.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = 6F434DBB0209E4EF2C5DB023C573FDCD /* ecmult.h */; };
+		57A84CCFEE4D65FA16E714448FCCE032 /* hash_impl.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = AB4D5FD62615D792610191804DFCAD6E /* hash_impl.h */; };
+		57C816297F8074DDB4FE3EDF5209123A /* field.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = 0CE053840C4608F977E881970A0F0EAD /* field.h */; };
+		5C2FD81CEB1A7CD21B27F18440994A00 /* scalar_low_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 11D503868752DD2AA50CA1B8090B70AE /* scalar_low_impl.h */; };
+		61795A5584188285EE7E98B7A2AD1D26 /* field_10x26.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = C271CDC919D4AA95C5DE964EF3E8077F /* field_10x26.h */; };
+		624105B2EF201F11BC58ECDB91A205B5 /* lax_der_privatekey_parsing.h in Headers */ = {isa = PBXBuildFile; fileRef = CC1E0DD7003627BEBA536D9FA1461EE3 /* lax_der_privatekey_parsing.h */; };
+		632B146BD44264081C28926FE5410EA8 /* libsecp256k1-config.h in Copy .. Private Headers */ = {isa = PBXBuildFile; fileRef = 651DBF6626C7D5F624A167325CB09E00 /* libsecp256k1-config.h */; };
+		6717A58C13A11DB51FE672294119082D /* secp256k1.c in Sources */ = {isa = PBXBuildFile; fileRef = B541DFA2CD22688083BB76A81A7B8E13 /* secp256k1.c */; };
+		6993E5DBC652794A7D88EF2F7AE1E792 /* field_impl.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = 0B6D9835076EEDC8390E8ACF58728304 /* field_impl.h */; };
+		6A445184AEC86F6204E6DE0F58633A95 /* ecmult.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F434DBB0209E4EF2C5DB023C573FDCD /* ecmult.h */; };
+		6B170F3146F1BFEFDC8ECE5FB269092B /* secp256k1_ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19509ADA97B845976BB0C0231537D908 /* secp256k1_ios-dummy.m */; };
+		6C1383829638BDFCC2AAE604BB7DA1A5 /* basic-config.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = 851A8FEA6BBCD68C5A1FF61F93CB8D2C /* basic-config.h */; };
+		6E5C9E0827DC425D7A7BD5A0BCB65078 /* num_gmp_impl.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = F0D513A82E21E6812989F02F478C3EE5 /* num_gmp_impl.h */; };
+		70D1C573E1416DD1218DC6AD750410FA /* scalar_8x32_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 8359BBECCDA8711B4A6D05E9CD40192E /* scalar_8x32_impl.h */; };
+		720F130F849C4B37BBFE23E21BF9C919 /* ecdsa_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 69218CC252AB0322DCDB37DA44F3FC21 /* ecdsa_impl.h */; };
 		72FDB12A4B6E3050AADA022C0F667AD8 /* Pods-ios-secp256k1_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D0095EE3A7FDB4E4C027F0764027C1 /* Pods-ios-secp256k1_Example-dummy.m */; };
-		82D2529811EC7C3240D2EF156644B503 /* num_gmp_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = B2BBEA758A4C7197723C8B5B791CB6ED /* num_gmp_impl.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		849949E6FEC9A906CCA23E7D282B369A /* field_5x52.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C4F41A75BEB0891ACB17D5F19CE6EB /* field_5x52.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		860EC08E4EB80EDB2059C0426FED4777 /* field_10x26.h in Headers */ = {isa = PBXBuildFile; fileRef = BFBB2D36FB47546BA7923085D353D4DD /* field_10x26.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		86D4056A73058985F5AB7249048B9124 /* field.h in Headers */ = {isa = PBXBuildFile; fileRef = E0B6F5202869C742ECD8029AE552DEC9 /* field.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8C22633C50FE63ACEED2403A2F380938 /* secp256k1_ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63A5B18A766ADDBEFB532A43508B927D /* secp256k1_ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9551D32F2A0E8A1A22FC64A9AC3B8B46 /* scalar_4x64.h in Headers */ = {isa = PBXBuildFile; fileRef = 49B82F0D8838E56F6E3C90BD117F07B3 /* scalar_4x64.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		97134480AF6499F58DEEBDCD5EEA669F /* scalar_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = A9CD5C7DA29DCA433E1D194CD9E886DC /* scalar_impl.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		996D1C4717FD6CBCE5B42D63D2F7016F /* scalar_low_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = EF5530DC1775FE5E5291AB1A6DBEAEBA /* scalar_low_impl.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9EEC59770DDE66DDFA3F553FF7672403 /* field_5x52_asm_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = E7C76C68325C5F1DDCF3A4F7BD26BAAD /* field_5x52_asm_impl.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A4F461CADF10680E7B9C73920A0C0720 /* util.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F822D2439E0BCAE5710A9744BFB72A3 /* util.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A725D4FAA3C3882C67F68706793A7C51 /* num_gmp.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8E937AD80F387B080A117E7E428CED /* num_gmp.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A80A4AD9EF6DD92FE9A97B79F61DB80A /* num.h in Headers */ = {isa = PBXBuildFile; fileRef = E1BEE9EB2DFD94DD5660F477E61A6E78 /* num.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AEA6722C62CCF15A197F53F6B0ED2C02 /* scalar_4x64_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = F81611F9EAFD429DE2183325827C8A97 /* scalar_4x64_impl.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B5051C9598DC095BEDE499A0EAB76B59 /* main_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = A4E0DFC1D9DC6205E0CB95FD11FC5D9E /* main_impl.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BE51326EEE6C549495C4593EB775E741 /* ecmult_gen.h in Headers */ = {isa = PBXBuildFile; fileRef = D44964B9A5EDBF1F2034325BFF9714A0 /* ecmult_gen.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BFFD19076231CD90AD7BDCB33319F24F /* ecmult.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFADC5AEC948026D5AE7B7C07F656E3 /* ecmult.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		73A777F09710A2567A3B6CF8000774D3 /* field_10x26.h in Headers */ = {isa = PBXBuildFile; fileRef = C271CDC919D4AA95C5DE964EF3E8077F /* field_10x26.h */; };
+		746923DC5F6F28631085C55CB99CEE7E /* main_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E184210E1F3BAAAD9284F48E65B6CF /* main_impl.h */; };
+		74CDFA291ED209021240252F52246521 /* ecdsa.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = 8EDF4FEC751718C27EDF6B0E7D980059 /* ecdsa.h */; };
+		75A6428D0A9DF800AE51AAF89FE4C778 /* secp256k1_recovery.h in Headers */ = {isa = PBXBuildFile; fileRef = 90F11C3A56F28BF5DECD71A829B10798 /* secp256k1_recovery.h */; };
+		7AB31E006B53CF33F2257738C9019543 /* hash_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = AB4D5FD62615D792610191804DFCAD6E /* hash_impl.h */; };
+		800E5FCCBA0592B4CF53F287693FC5DE /* group_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 47816532202EF5FA7136433ECEE9F930 /* group_impl.h */; };
+		808FE4F6F16133571F753FA62C9ABD20 /* ecdsa.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EDF4FEC751718C27EDF6B0E7D980059 /* ecdsa.h */; };
+		81188758237F06829BD72C3C84BA38CE /* scalar_4x64_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 02617382966B3631A6CBCC1BC8D391AC /* scalar_4x64_impl.h */; };
+		832B68C0B5566972DC153F3B1416B561 /* eckey_impl.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = C4EBDB9659EF2C953E226040EC2DE8E9 /* eckey_impl.h */; };
+		8517013AD87F783EC2BC6B0F5801C721 /* eckey.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DC76A7E072783D71062D07A933EEB72 /* eckey.h */; };
+		8649A04F68BC3B2E6B2BA874D1B50B98 /* ecmult_const_impl.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = B2BD700E89F0717EDE9F9F177E7E530E /* ecmult_const_impl.h */; };
+		948F1D372D8F099EDF5127F93D2E8310 /* util.h in Headers */ = {isa = PBXBuildFile; fileRef = 77BE3BF8E0B802820BE72D758DE385C4 /* util.h */; };
+		94BD14C0E6939A2AB6DC0AD470F41182 /* hash.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = 0B464D978BAF23F93381B03771EC0F64 /* hash.h */; };
+		94D518F5723FD32C4E41787F78F64043 /* num.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = B3ACC2A11CBCAB2DA7FACF859B548110 /* num.h */; };
+		9505CFAA37CA7679ECB5DB19F144C6FF /* scalar_8x32.h in Headers */ = {isa = PBXBuildFile; fileRef = 867F35BB811EE7A4F7C76714A7882816 /* scalar_8x32.h */; };
+		9964E71C01A0405450FF1B6D14F155B3 /* field_5x52.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = E0DB71E38E9B1C88F3FF1A4F59017C43 /* field_5x52.h */; };
+		99F8BF9962279063E4E08D819DEB0547 /* lax_der_privatekey_parsing.c in Sources */ = {isa = PBXBuildFile; fileRef = BF650D4A6D5EFAE66A327AD99F836F61 /* lax_der_privatekey_parsing.c */; };
+		9BBEF9E59CD4CBD872FCB6D57B591169 /* secp256k1_ecdh.h in Headers */ = {isa = PBXBuildFile; fileRef = E707A80EB12A364E231AEED10F3DBA32 /* secp256k1_ecdh.h */; };
+		9E3884D3AEEB26CCA7B789BC30D6D476 /* scalar_low.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = 9EE27F47604C9C665DD20A11312E06EC /* scalar_low.h */; };
+		9EC723D80D40C6C69C92E80A9D7B70AA /* group.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F9484B6DE189EE90684483C20FB5DB8 /* group.h */; };
+		9FA159229CFA128FB877007F1B5B88BB /* num.h in Headers */ = {isa = PBXBuildFile; fileRef = B3ACC2A11CBCAB2DA7FACF859B548110 /* num.h */; };
+		A9421D2B96EEA2204C319F226C102664 /* ecmult_impl.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = 2AC693BFED10BB5911D0F82A17B441CB /* ecmult_impl.h */; };
+		A979EE1D6BCFF516BD702F2622B4D80C /* main_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = FAF152966D44E6EC1601DB765ED3F3F3 /* main_impl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF6CFE036225C76650C1D5793015FBD3 /* num_impl.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = 38848D663FD2052F37770169478B3541 /* num_impl.h */; };
+		B0B33C981A5E65E2712D3F887328F749 /* scratch_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = D8390D3BE50BE595A56DC88C2E17FF91 /* scratch_impl.h */; };
+		B146C2AEC6BD550E218E88AB768C23D2 /* secp256k1_recovery.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 90F11C3A56F28BF5DECD71A829B10798 /* secp256k1_recovery.h */; };
+		B293059B3A56AE975F614968AF24E50D /* scalar.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E75F62429EA1F3EBCD6E61BFE8A1848 /* scalar.h */; };
+		BCF0E4748B47D7B85CAE3CE3090D2711 /* num_gmp.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B7C68DCF631F2E4BF3A7796675CBE00 /* num_gmp.h */; };
 		C0C5EF3090F513A7ADED087F79D9159C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C5C0F3B5A24194073A73EC954D87024D /* ecmult_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 3581C25E4C3922D85DD827435C08A268 /* ecmult_impl.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CA2721C1699EF5350D47ED25A0E63374 /* lax_der_parsing.h in Headers */ = {isa = PBXBuildFile; fileRef = 8585C37C5585E63C423199CEF297C149 /* lax_der_parsing.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CA782B64D26758AD2E6A22FF36A90221 /* field_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 7348BA85526EBB6B0F556988EBB4E967 /* field_impl.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D1F29FAFB852261E96CFABD7A7590167 /* secp256k1_ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A50B78CDAFEEBF61493FF3EFE7C6163 /* secp256k1_ios-dummy.m */; };
-		D8CA63B3638970E28AD3713E43F5D47D /* eckey.h in Headers */ = {isa = PBXBuildFile; fileRef = EE098C864AD28F2B7A5A7A0F8A223E49 /* eckey.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DA97D820CAF6651FC037A998634650BF /* lax_der_privatekey_parsing.h in Headers */ = {isa = PBXBuildFile; fileRef = 38538E08BC970C3EC40562A01DA1E1B3 /* lax_der_privatekey_parsing.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DEE5E36F39C7AC1B421E50BE6C84975A /* scalar.h in Headers */ = {isa = PBXBuildFile; fileRef = 8964A399E042E63D6AA7D294688C0022 /* scalar.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EB612889E6055B5AC21B27EE1FF8A7E4 /* ecmult_const_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 54ABD7C7EC6781017AC7224A29E5D1B4 /* ecmult_const_impl.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EED894886CC36D1E3C0DD6D207F4B52E /* secp256k1_recovery.h in Headers */ = {isa = PBXBuildFile; fileRef = 5216D3B281D43508D33160B9E21AACE2 /* secp256k1_recovery.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F70E1738574E24B6D50ADC6475358807 /* scalar_low.h in Headers */ = {isa = PBXBuildFile; fileRef = 6484B8B140CDAB2C8300B942CD381682 /* scalar_low.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FA7B01429573DCC495EFB2F01D280ADE /* secp256k1.c in Sources */ = {isa = PBXBuildFile; fileRef = 8F32677452251D0C315EF41C1AF26AA1 /* secp256k1.c */; };
-		FAA12CE9526CA099B584C9E876C387D7 /* hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 05EC6DDE93C27418D06CFBB2710FE8C0 /* hash.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C109A2DC994CBCEAA580F3EAD400C0B4 /* scalar_8x32.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = 867F35BB811EE7A4F7C76714A7882816 /* scalar_8x32.h */; };
+		C180AB137D8E784975C9E5B257696ACF /* num_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 38848D663FD2052F37770169478B3541 /* num_impl.h */; };
+		C45F8D1EFE087BB7E37F052E309E8105 /* num_gmp.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = 3B7C68DCF631F2E4BF3A7796675CBE00 /* num_gmp.h */; };
+		C4C95257A1DC7145ADD1E675B0819919 /* scratch.h in Headers */ = {isa = PBXBuildFile; fileRef = 08C6E33E73B1B68D2335465E5DE426DF /* scratch.h */; };
+		C7CE1A792A44C757B0C2BA6D586E797D /* ecdsa_impl.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = 69218CC252AB0322DCDB37DA44F3FC21 /* ecdsa_impl.h */; };
+		C8C4F78AAA1566ED0F0A2A6413386BA5 /* scalar_impl.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = D7AF13D88474818927B391923A83258D /* scalar_impl.h */; };
+		C8F090FAE2C1668293EF821A50BC7CE5 /* eckey_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = C4EBDB9659EF2C953E226040EC2DE8E9 /* eckey_impl.h */; };
+		C9C3B020BE2BE0F4E2F5F57BE69EB6BC /* field_5x52_asm_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C624D4838F4DB672DC437D6C6A30DF6 /* field_5x52_asm_impl.h */; };
+		CB7CC7254A388E2A4B1860220BC8125B /* field_5x52_asm_impl.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = 7C624D4838F4DB672DC437D6C6A30DF6 /* field_5x52_asm_impl.h */; };
+		CE9E44B50B24F1082A53CA4043C90301 /* field_10x26_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 33D7B31961E8D3A22E010A4DE7D6E532 /* field_10x26_impl.h */; };
+		D04366C4F9FCE2F42FC5DC82E87509B8 /* scalar_4x64.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = 82C5506AF03547F4B746CDDFF689D4DB /* scalar_4x64.h */; };
+		D37DFE3A13C69276908CD336FFB3683A /* field_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B6D9835076EEDC8390E8ACF58728304 /* field_impl.h */; };
+		D56B2FF8E8E2B171ECC1B884D080A08C /* lax_der_privatekey_parsing.h in Copy ../contrib Private Headers */ = {isa = PBXBuildFile; fileRef = CC1E0DD7003627BEBA536D9FA1461EE3 /* lax_der_privatekey_parsing.h */; };
+		DAFA75806892AB072E4A964E8A556B8B /* scalar.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = 4E75F62429EA1F3EBCD6E61BFE8A1848 /* scalar.h */; };
+		DEEEFD79F65F5CDCC31F91B96E020401 /* main_impl.h in Copy ../src/modules/recovery Private Headers */ = {isa = PBXBuildFile; fileRef = 73E184210E1F3BAAAD9284F48E65B6CF /* main_impl.h */; };
+		E190858F072A43A284A6A0A54491675D /* lax_der_parsing.h in Copy ../contrib Private Headers */ = {isa = PBXBuildFile; fileRef = 0454ED973699192BA6850B6E18351533 /* lax_der_parsing.h */; };
+		E4B7224B27368BBBF2AA020181CD8243 /* ecmult_const.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = F1004C5CA2FC6B09176CFDF860284963 /* ecmult_const.h */; };
+		E59D9198CF5DD7C151C2DE1A5FCCECF0 /* scalar_low_impl.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = 11D503868752DD2AA50CA1B8090B70AE /* scalar_low_impl.h */; };
+		E75ABC9ADA80F5FA1216EB251A6927DC /* num_gmp_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = F0D513A82E21E6812989F02F478C3EE5 /* num_gmp_impl.h */; };
+		E781E1B6B45B07758775B3BB43154FEB /* ecmult_gen_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 024E6C874A35A994F1DAECA99AA25808 /* ecmult_gen_impl.h */; };
+		EF6507D7423FEE73530AFEB844C36B63 /* secp256k1_ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC012F00ACB3FFF2FFC4DDB01CC98EF3 /* secp256k1_ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF9C0D55FB612837B44DE866E092BCBF /* libsecp256k1-config.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = 3A0DE3646F7ED590595A33388AF0D06B /* libsecp256k1-config.h */; };
+		F1C6CB38D4EAFFB4FBCBAE6D74EA42AB /* libsecp256k1-config.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A0DE3646F7ED590595A33388AF0D06B /* libsecp256k1-config.h */; };
+		F4CCF157BB5DE187331FC666931FDED0 /* field_5x52_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B4314A6A7E3FB1EAC47BB19D1EC39F2 /* field_5x52_impl.h */; };
+		F65A168BF601CB4C71E9DDE85E4F4970 /* scalar_4x64_impl.h in Copy ../src Private Headers */ = {isa = PBXBuildFile; fileRef = 02617382966B3631A6CBCC1BC8D391AC /* scalar_4x64_impl.h */; };
+		FCB90CAF764ED3177C1FCD79A7F0B5C0 /* basic-config.h in Headers */ = {isa = PBXBuildFile; fileRef = 851A8FEA6BBCD68C5A1FF61F93CB8D2C /* basic-config.h */; };
+		FE7259D67292779D042720A905CA1FC5 /* lax_der_parsing.h in Headers */ = {isa = PBXBuildFile; fileRef = 0454ED973699192BA6850B6E18351533 /* lax_der_parsing.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,86 +124,187 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		00D7F7F5B4553068BC2DFCC589CC9CDE /* Copy ../src/modules/recovery Private Headers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PRIVATE_HEADERS_FOLDER_PATH)/../src/modules/recovery";
+			dstSubfolderSpec = 16;
+			files = (
+				DEEEFD79F65F5CDCC31F91B96E020401 /* main_impl.h in Copy ../src/modules/recovery Private Headers */,
+			);
+			name = "Copy ../src/modules/recovery Private Headers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46A1B86C7D57D61647774BCFCAEDF99E /* Copy .. Private Headers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PRIVATE_HEADERS_FOLDER_PATH)/..";
+			dstSubfolderSpec = 16;
+			files = (
+				632B146BD44264081C28926FE5410EA8 /* libsecp256k1-config.h in Copy .. Private Headers */,
+			);
+			name = "Copy .. Private Headers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97C1CDC9D77375DA2A5BA214A40F7740 /* Copy ../contrib Private Headers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PRIVATE_HEADERS_FOLDER_PATH)/../contrib";
+			dstSubfolderSpec = 16;
+			files = (
+				E190858F072A43A284A6A0A54491675D /* lax_der_parsing.h in Copy ../contrib Private Headers */,
+				D56B2FF8E8E2B171ECC1B884D080A08C /* lax_der_privatekey_parsing.h in Copy ../contrib Private Headers */,
+			);
+			name = "Copy ../contrib Private Headers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7700684CA6E5D75C7F369DE3EB41550 /* Copy ../src Private Headers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PRIVATE_HEADERS_FOLDER_PATH)/../src";
+			dstSubfolderSpec = 16;
+			files = (
+				6C1383829638BDFCC2AAE604BB7DA1A5 /* basic-config.h in Copy ../src Private Headers */,
+				74CDFA291ED209021240252F52246521 /* ecdsa.h in Copy ../src Private Headers */,
+				C7CE1A792A44C757B0C2BA6D586E797D /* ecdsa_impl.h in Copy ../src Private Headers */,
+				13C8F3879E3A6F3C7424C0A36C4AFB75 /* eckey.h in Copy ../src Private Headers */,
+				832B68C0B5566972DC153F3B1416B561 /* eckey_impl.h in Copy ../src Private Headers */,
+				55D7113B7B22235223C6C64A29845444 /* ecmult.h in Copy ../src Private Headers */,
+				E4B7224B27368BBBF2AA020181CD8243 /* ecmult_const.h in Copy ../src Private Headers */,
+				8649A04F68BC3B2E6B2BA874D1B50B98 /* ecmult_const_impl.h in Copy ../src Private Headers */,
+				101289C42D29DF3738EB149A50F404FC /* ecmult_gen.h in Copy ../src Private Headers */,
+				13426B5AE6001BAD84866276E7505C74 /* ecmult_gen_impl.h in Copy ../src Private Headers */,
+				A9421D2B96EEA2204C319F226C102664 /* ecmult_impl.h in Copy ../src Private Headers */,
+				57C816297F8074DDB4FE3EDF5209123A /* field.h in Copy ../src Private Headers */,
+				61795A5584188285EE7E98B7A2AD1D26 /* field_10x26.h in Copy ../src Private Headers */,
+				0471B4E7C5CBE864CCC7482A770A68BC /* field_10x26_impl.h in Copy ../src Private Headers */,
+				9964E71C01A0405450FF1B6D14F155B3 /* field_5x52.h in Copy ../src Private Headers */,
+				CB7CC7254A388E2A4B1860220BC8125B /* field_5x52_asm_impl.h in Copy ../src Private Headers */,
+				4A73B19F8B597C5AE31ECE4313146CD6 /* field_5x52_impl.h in Copy ../src Private Headers */,
+				20A752E206504401642F55422BED53F5 /* field_5x52_int128_impl.h in Copy ../src Private Headers */,
+				6993E5DBC652794A7D88EF2F7AE1E792 /* field_impl.h in Copy ../src Private Headers */,
+				3DB64BE7246E5A5D42147F6B80E15236 /* group.h in Copy ../src Private Headers */,
+				0ACDBB5A7EBCCBCD783428B653A8A34F /* group_impl.h in Copy ../src Private Headers */,
+				94BD14C0E6939A2AB6DC0AD470F41182 /* hash.h in Copy ../src Private Headers */,
+				57A84CCFEE4D65FA16E714448FCCE032 /* hash_impl.h in Copy ../src Private Headers */,
+				EF9C0D55FB612837B44DE866E092BCBF /* libsecp256k1-config.h in Copy ../src Private Headers */,
+				94D518F5723FD32C4E41787F78F64043 /* num.h in Copy ../src Private Headers */,
+				C45F8D1EFE087BB7E37F052E309E8105 /* num_gmp.h in Copy ../src Private Headers */,
+				6E5C9E0827DC425D7A7BD5A0BCB65078 /* num_gmp_impl.h in Copy ../src Private Headers */,
+				AF6CFE036225C76650C1D5793015FBD3 /* num_impl.h in Copy ../src Private Headers */,
+				DAFA75806892AB072E4A964E8A556B8B /* scalar.h in Copy ../src Private Headers */,
+				D04366C4F9FCE2F42FC5DC82E87509B8 /* scalar_4x64.h in Copy ../src Private Headers */,
+				F65A168BF601CB4C71E9DDE85E4F4970 /* scalar_4x64_impl.h in Copy ../src Private Headers */,
+				C109A2DC994CBCEAA580F3EAD400C0B4 /* scalar_8x32.h in Copy ../src Private Headers */,
+				42A22D8B17969380FDFBDD66B9194BAD /* scalar_8x32_impl.h in Copy ../src Private Headers */,
+				C8C4F78AAA1566ED0F0A2A6413386BA5 /* scalar_impl.h in Copy ../src Private Headers */,
+				9E3884D3AEEB26CCA7B789BC30D6D476 /* scalar_low.h in Copy ../src Private Headers */,
+				E59D9198CF5DD7C151C2DE1A5FCCECF0 /* scalar_low_impl.h in Copy ../src Private Headers */,
+				0E07F82AA6355ACA8197A4CD60CC719D /* scratch.h in Copy ../src Private Headers */,
+				2B529EE9F53427BA339691057CBF15E6 /* scratch_impl.h in Copy ../src Private Headers */,
+				2608532E3A93AB6E2C6555FBB40960F5 /* util.h in Copy ../src Private Headers */,
+			);
+			name = "Copy ../src Private Headers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B813DD045A0022A5A9A493933E685DCC /* Copy . Public Headers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PUBLIC_HEADERS_FOLDER_PATH)/.";
+			dstSubfolderSpec = 16;
+			files = (
+				3B757C650E073B9A7C009489734046A7 /* secp256k1.h in Copy . Public Headers */,
+				1C9477500AE9D2D430CE5F67AEFDDE5C /* secp256k1_ecdh.h in Copy . Public Headers */,
+				B146C2AEC6BD550E218E88AB768C23D2 /* secp256k1_recovery.h in Copy . Public Headers */,
+			);
+			name = "Copy . Public Headers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		010D0A0EA3DA356D4F966ABDDA2AFA39 /* libsecp256k1-config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "libsecp256k1-config.h"; path = "secp256k1_ios/libsecp256k1-config.h"; sourceTree = "<group>"; };
-		0359897BE6F32D1CF9F44C3096DD3F9B /* ecdsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdsa.h; path = secp256k1_ios/src/ecdsa.h; sourceTree = "<group>"; };
+		024E6C874A35A994F1DAECA99AA25808 /* ecmult_gen_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecmult_gen_impl.h; sourceTree = "<group>"; };
+		02617382966B3631A6CBCC1BC8D391AC /* scalar_4x64_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scalar_4x64_impl.h; sourceTree = "<group>"; };
 		03F1926CC30C1AE5DF86C58AE8CF4846 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04C4F41A75BEB0891ACB17D5F19CE6EB /* field_5x52.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = field_5x52.h; path = secp256k1_ios/src/field_5x52.h; sourceTree = "<group>"; };
-		05EC6DDE93C27418D06CFBB2710FE8C0 /* hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hash.h; path = secp256k1_ios/src/hash.h; sourceTree = "<group>"; };
-		0626782AF2C9B74E85BF2D4D5C5D800B /* ecdsa_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdsa_impl.h; path = secp256k1_ios/src/ecdsa_impl.h; sourceTree = "<group>"; };
+		0454ED973699192BA6850B6E18351533 /* lax_der_parsing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lax_der_parsing.h; sourceTree = "<group>"; };
+		08C6E33E73B1B68D2335465E5DE426DF /* scratch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scratch.h; sourceTree = "<group>"; };
 		0A15348F65A9DFB615F166EA37FAAAC3 /* Pods-ios-secp256k1_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ios-secp256k1_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0B1848FB5BBC8D721FACED7580053C68 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B238EF550A2E3517C6B15F06535A13F /* hash_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hash_impl.h; path = secp256k1_ios/src/hash_impl.h; sourceTree = "<group>"; };
-		0FD6FD1724A6FF24F82BCBEA8BFD6439 /* ecmult_gen_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecmult_gen_impl.h; path = secp256k1_ios/src/ecmult_gen_impl.h; sourceTree = "<group>"; };
-		14A133B85830D15BD5850FFC19D0B0FF /* group_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = group_impl.h; path = secp256k1_ios/src/group_impl.h; sourceTree = "<group>"; };
+		0B464D978BAF23F93381B03771EC0F64 /* hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = hash.h; sourceTree = "<group>"; };
+		0B6D9835076EEDC8390E8ACF58728304 /* field_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = field_impl.h; sourceTree = "<group>"; };
+		0CE053840C4608F977E881970A0F0EAD /* field.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = field.h; sourceTree = "<group>"; };
+		0DC76A7E072783D71062D07A933EEB72 /* eckey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = eckey.h; sourceTree = "<group>"; };
+		0EEB9E6CC701F77758EA6CB3BA9361FD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11D503868752DD2AA50CA1B8090B70AE /* scalar_low_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scalar_low_impl.h; sourceTree = "<group>"; };
 		16D13297E49C77465FFA8F1E9A4FF8E9 /* Pods-ios-secp256k1_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ios-secp256k1_Tests-umbrella.h"; sourceTree = "<group>"; };
+		19509ADA97B845976BB0C0231537D908 /* secp256k1_ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "secp256k1_ios-dummy.m"; sourceTree = "<group>"; };
 		21237C9A496DEB199E5365BD35CA5B63 /* Pods_ios_secp256k1_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ios_secp256k1_Example.framework; path = "Pods-ios-secp256k1_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		27F1C2A340FC5D872FB43D64CD31A058 /* scalar_8x32.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scalar_8x32.h; path = secp256k1_ios/src/scalar_8x32.h; sourceTree = "<group>"; };
+		2AC693BFED10BB5911D0F82A17B441CB /* ecmult_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecmult_impl.h; sourceTree = "<group>"; };
 		2BAE4A3D5C73E0411404F306EEA9F214 /* Pods-ios-secp256k1_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios-secp256k1_Tests-resources.sh"; sourceTree = "<group>"; };
-		3581C25E4C3922D85DD827435C08A268 /* ecmult_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecmult_impl.h; path = secp256k1_ios/src/ecmult_impl.h; sourceTree = "<group>"; };
-		38538E08BC970C3EC40562A01DA1E1B3 /* lax_der_privatekey_parsing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lax_der_privatekey_parsing.h; path = secp256k1_ios/contrib/lax_der_privatekey_parsing.h; sourceTree = "<group>"; };
+		33D7B31961E8D3A22E010A4DE7D6E532 /* field_10x26_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = field_10x26_impl.h; sourceTree = "<group>"; };
+		38848D663FD2052F37770169478B3541 /* num_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = num_impl.h; sourceTree = "<group>"; };
 		3934A5DD6376283B8165F4C037DDE9F6 /* Pods-ios-secp256k1_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ios-secp256k1_Example-umbrella.h"; sourceTree = "<group>"; };
-		43636F883EFC652D40BD884B424CD5AD /* field_5x52_int128_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = field_5x52_int128_impl.h; path = secp256k1_ios/src/field_5x52_int128_impl.h; sourceTree = "<group>"; };
-		49B82F0D8838E56F6E3C90BD117F07B3 /* scalar_4x64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scalar_4x64.h; path = secp256k1_ios/src/scalar_4x64.h; sourceTree = "<group>"; };
+		3A0DE3646F7ED590595A33388AF0D06B /* libsecp256k1-config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libsecp256k1-config.h"; sourceTree = "<group>"; };
+		3B7C68DCF631F2E4BF3A7796675CBE00 /* num_gmp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = num_gmp.h; sourceTree = "<group>"; };
+		3F9484B6DE189EE90684483C20FB5DB8 /* group.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = group.h; sourceTree = "<group>"; };
+		47816532202EF5FA7136433ECEE9F930 /* group_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = group_impl.h; sourceTree = "<group>"; };
 		4AF2FB60ED91EE666D78414BDE6C1C5E /* Pods-ios-secp256k1_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ios-secp256k1_Example.modulemap"; sourceTree = "<group>"; };
+		4B4314A6A7E3FB1EAC47BB19D1EC39F2 /* field_5x52_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = field_5x52_impl.h; sourceTree = "<group>"; };
 		4E11FF51B6F0ED4ED3F7BE4915881FF1 /* Pods-ios-secp256k1_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-secp256k1_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5216D3B281D43508D33160B9E21AACE2 /* secp256k1_recovery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = secp256k1_recovery.h; path = secp256k1_ios/include/secp256k1_recovery.h; sourceTree = "<group>"; };
-		54ABD7C7EC6781017AC7224A29E5D1B4 /* ecmult_const_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecmult_const_impl.h; path = secp256k1_ios/src/ecmult_const_impl.h; sourceTree = "<group>"; };
+		4E75F62429EA1F3EBCD6E61BFE8A1848 /* scalar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scalar.h; sourceTree = "<group>"; };
+		52349938E2406EC2C97BAC8A6852383B /* secp256k1_ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = secp256k1_ios.xcconfig; sourceTree = "<group>"; };
 		56F21188042EE045BA14D5BCED07D520 /* Pods-ios-secp256k1_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ios-secp256k1_Tests-dummy.m"; sourceTree = "<group>"; };
-		5CA5F5A6A4454BACD404E8D2F6930CD8 /* secp256k1_ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = secp256k1_ios.modulemap; sourceTree = "<group>"; };
-		5E955B91F604E927177C061F71B43A57 /* lax_der_privatekey_parsing.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lax_der_privatekey_parsing.c; path = secp256k1_ios/contrib/lax_der_privatekey_parsing.c; sourceTree = "<group>"; };
-		5EF615225752995D8EA8EC64ADB1BB53 /* basic-config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "basic-config.h"; path = "secp256k1_ios/src/basic-config.h"; sourceTree = "<group>"; };
-		63A5B18A766ADDBEFB532A43508B927D /* secp256k1_ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "secp256k1_ios-umbrella.h"; sourceTree = "<group>"; };
-		6484B8B140CDAB2C8300B942CD381682 /* scalar_low.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scalar_low.h; path = secp256k1_ios/src/scalar_low.h; sourceTree = "<group>"; };
-		64F6B4523006CEAF47C49B88B2C327A7 /* field_10x26_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = field_10x26_impl.h; path = secp256k1_ios/src/field_10x26_impl.h; sourceTree = "<group>"; };
+		63DC095671EB5252952937F1D28FF95E /* field_5x52_int128_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = field_5x52_int128_impl.h; sourceTree = "<group>"; };
+		651DBF6626C7D5F624A167325CB09E00 /* libsecp256k1-config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "libsecp256k1-config.h"; path = "secp256k1_ios/libsecp256k1-config.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6A50B78CDAFEEBF61493FF3EFE7C6163 /* secp256k1_ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "secp256k1_ios-dummy.m"; sourceTree = "<group>"; };
-		6C2947FF5278E73962942278391C832E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69218CC252AB0322DCDB37DA44F3FC21 /* ecdsa_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecdsa_impl.h; sourceTree = "<group>"; };
+		692E8DE583648CCD1A5C2BD6489EC1C1 /* ecmult_gen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecmult_gen.h; sourceTree = "<group>"; };
+		6F434DBB0209E4EF2C5DB023C573FDCD /* ecmult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecmult.h; sourceTree = "<group>"; };
 		7148C47CA632510988662E0CB8028883 /* Pods-ios-secp256k1_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ios-secp256k1_Tests.modulemap"; sourceTree = "<group>"; };
-		7348BA85526EBB6B0F556988EBB4E967 /* field_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = field_impl.h; path = secp256k1_ios/src/field_impl.h; sourceTree = "<group>"; };
-		7974B2BA99E32BCC658AB1409BB8163E /* eckey_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = eckey_impl.h; path = secp256k1_ios/src/eckey_impl.h; sourceTree = "<group>"; };
-		8585C37C5585E63C423199CEF297C149 /* lax_der_parsing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lax_der_parsing.h; path = secp256k1_ios/contrib/lax_der_parsing.h; sourceTree = "<group>"; };
-		8964A399E042E63D6AA7D294688C0022 /* scalar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scalar.h; path = secp256k1_ios/src/scalar.h; sourceTree = "<group>"; };
+		73E184210E1F3BAAAD9284F48E65B6CF /* main_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = main_impl.h; sourceTree = "<group>"; };
+		77BE3BF8E0B802820BE72D758DE385C4 /* util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		7C624D4838F4DB672DC437D6C6A30DF6 /* field_5x52_asm_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = field_5x52_asm_impl.h; sourceTree = "<group>"; };
+		82C5506AF03547F4B746CDDFF689D4DB /* scalar_4x64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scalar_4x64.h; sourceTree = "<group>"; };
+		8359BBECCDA8711B4A6D05E9CD40192E /* scalar_8x32_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scalar_8x32_impl.h; sourceTree = "<group>"; };
+		851A8FEA6BBCD68C5A1FF61F93CB8D2C /* basic-config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "basic-config.h"; sourceTree = "<group>"; };
+		867F35BB811EE7A4F7C76714A7882816 /* scalar_8x32.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scalar_8x32.h; sourceTree = "<group>"; };
+		8A7366B4359096E5DE34B96DAC67148B /* secp256k1_ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = secp256k1_ios.modulemap; sourceTree = "<group>"; };
 		8D8854D0764B86E8E2FD34ED62B0F5E8 /* Pods-ios-secp256k1_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-secp256k1_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8F32677452251D0C315EF41C1AF26AA1 /* secp256k1.c */ = {isa = PBXFileReference; includeInIndex = 1; name = secp256k1.c; path = secp256k1_ios/src/secp256k1.c; sourceTree = "<group>"; };
+		8EDF4FEC751718C27EDF6B0E7D980059 /* ecdsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
 		90C7458C67F5AD86D7FF39EF98B11F6A /* Pods-ios-secp256k1_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ios-secp256k1_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		90F11C3A56F28BF5DECD71A829B10798 /* secp256k1_recovery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = secp256k1_recovery.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94005EA9F7A542248FEC18B2A33A1D22 /* lax_der_parsing.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lax_der_parsing.c; path = secp256k1_ios/contrib/lax_der_parsing.c; sourceTree = "<group>"; };
-		9A8E937AD80F387B080A117E7E428CED /* num_gmp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = num_gmp.h; path = secp256k1_ios/src/num_gmp.h; sourceTree = "<group>"; };
-		9F822D2439E0BCAE5710A9744BFB72A3 /* util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = util.h; path = secp256k1_ios/src/util.h; sourceTree = "<group>"; };
+		9EE27F47604C9C665DD20A11312E06EC /* scalar_low.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scalar_low.h; sourceTree = "<group>"; };
 		A2D0095EE3A7FDB4E4C027F0764027C1 /* Pods-ios-secp256k1_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ios-secp256k1_Example-dummy.m"; sourceTree = "<group>"; };
-		A4E0DFC1D9DC6205E0CB95FD11FC5D9E /* main_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = main_impl.h; path = secp256k1_ios/src/modules/ecdh/main_impl.h; sourceTree = "<group>"; };
 		A5155FF381207C8756FD03E964F16854 /* Pods-ios-secp256k1_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios-secp256k1_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A51EDCC1F29E6FE4115CEA76D03466B1 /* lax_der_parsing.c */ = {isa = PBXFileReference; includeInIndex = 1; path = lax_der_parsing.c; sourceTree = "<group>"; };
 		A58B78C92F439662BD9BA255D9332F51 /* Pods-ios-secp256k1_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios-secp256k1_Example-resources.sh"; sourceTree = "<group>"; };
-		A9CD5C7DA29DCA433E1D194CD9E886DC /* scalar_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scalar_impl.h; path = secp256k1_ios/src/scalar_impl.h; sourceTree = "<group>"; };
 		AA6435173B3B94FCC6C4BAE43542558C /* Pods_ios_secp256k1_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ios_secp256k1_Tests.framework; path = "Pods-ios-secp256k1_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ACC5A7429FB55E4BC7E1F95406DDC4DC /* secp256k1_ios-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "secp256k1_ios-prefix.pch"; sourceTree = "<group>"; };
+		AB4D5FD62615D792610191804DFCAD6E /* hash_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = hash_impl.h; sourceTree = "<group>"; };
 		B0470E75AFE4785BC0B34FBF35F7E99E /* Pods-ios-secp256k1_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ios-secp256k1_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B2BBEA758A4C7197723C8B5B791CB6ED /* num_gmp_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = num_gmp_impl.h; path = secp256k1_ios/src/num_gmp_impl.h; sourceTree = "<group>"; };
-		B7325A3804B8F28758EDC118506429CF /* secp256k1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = secp256k1.h; path = secp256k1_ios/include/secp256k1.h; sourceTree = "<group>"; };
-		B7BE5B249AE022E028674E3E6492D1A5 /* secp256k1_ios.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = secp256k1_ios.h; path = secp256k1_ios/secp256k1_ios.h; sourceTree = "<group>"; };
-		BA12B9C8DCD42111DF355410D295465D /* field_5x52_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = field_5x52_impl.h; path = secp256k1_ios/src/field_5x52_impl.h; sourceTree = "<group>"; };
+		B2BD700E89F0717EDE9F9F177E7E530E /* ecmult_const_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecmult_const_impl.h; sourceTree = "<group>"; };
+		B3ACC2A11CBCAB2DA7FACF859B548110 /* num.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = num.h; sourceTree = "<group>"; };
+		B541DFA2CD22688083BB76A81A7B8E13 /* secp256k1.c */ = {isa = PBXFileReference; includeInIndex = 1; path = secp256k1.c; sourceTree = "<group>"; };
 		BE7E3BC694BE51EFEC9E21D7EC2822C4 /* Pods-ios-secp256k1_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-secp256k1_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BEFF835D614D32C69051ECA6B6266BAF /* group.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = group.h; path = secp256k1_ios/src/group.h; sourceTree = "<group>"; };
-		BFBB2D36FB47546BA7923085D353D4DD /* field_10x26.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = field_10x26.h; path = secp256k1_ios/src/field_10x26.h; sourceTree = "<group>"; };
-		C1A35F3AC8604C7789454CC5680A3D12 /* main_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = main_impl.h; path = secp256k1_ios/src/modules/recovery/main_impl.h; sourceTree = "<group>"; };
-		C88E12AE91EB18B872F74F6E34BCA5EA /* num_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = num_impl.h; path = secp256k1_ios/src/num_impl.h; sourceTree = "<group>"; };
+		BF650D4A6D5EFAE66A327AD99F836F61 /* lax_der_privatekey_parsing.c */ = {isa = PBXFileReference; includeInIndex = 1; path = lax_der_privatekey_parsing.c; sourceTree = "<group>"; };
+		C0E1F1BBB5A808960BC0F922A5D6539D /* secp256k1_ios-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "secp256k1_ios-prefix.pch"; sourceTree = "<group>"; };
+		C271CDC919D4AA95C5DE964EF3E8077F /* field_10x26.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = field_10x26.h; sourceTree = "<group>"; };
+		C4EBDB9659EF2C953E226040EC2DE8E9 /* eckey_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = eckey_impl.h; sourceTree = "<group>"; };
 		C9AFF4E3FC320BA9ABD4A4CACE62B805 /* Pods-ios-secp256k1_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-secp256k1_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CA55FAE8819325BD5F86B69438EF6DEE /* secp256k1_ecdh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = secp256k1_ecdh.h; path = secp256k1_ios/include/secp256k1_ecdh.h; sourceTree = "<group>"; };
+		CC1E0DD7003627BEBA536D9FA1461EE3 /* lax_der_privatekey_parsing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lax_der_privatekey_parsing.h; sourceTree = "<group>"; };
 		CD6F80E869E97869A9892AC18E74CF20 /* Pods-ios-secp256k1_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ios-secp256k1_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CF2D5344FD80D38BA55244E624F19B26 /* scalar_8x32_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scalar_8x32_impl.h; path = secp256k1_ios/src/scalar_8x32_impl.h; sourceTree = "<group>"; };
-		D19A7A43392138FB3CFEA452905B667E /* secp256k1_ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = secp256k1_ios.xcconfig; sourceTree = "<group>"; };
-		D44964B9A5EDBF1F2034325BFF9714A0 /* ecmult_gen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecmult_gen.h; path = secp256k1_ios/src/ecmult_gen.h; sourceTree = "<group>"; };
-		E0B6F5202869C742ECD8029AE552DEC9 /* field.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = field.h; path = secp256k1_ios/src/field.h; sourceTree = "<group>"; };
-		E1BEE9EB2DFD94DD5660F477E61A6E78 /* num.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = num.h; path = secp256k1_ios/src/num.h; sourceTree = "<group>"; };
-		E7C76C68325C5F1DDCF3A4F7BD26BAAD /* field_5x52_asm_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = field_5x52_asm_impl.h; path = secp256k1_ios/src/field_5x52_asm_impl.h; sourceTree = "<group>"; };
-		EE098C864AD28F2B7A5A7A0F8A223E49 /* eckey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = eckey.h; path = secp256k1_ios/src/eckey.h; sourceTree = "<group>"; };
-		EF5530DC1775FE5E5291AB1A6DBEAEBA /* scalar_low_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scalar_low_impl.h; path = secp256k1_ios/src/scalar_low_impl.h; sourceTree = "<group>"; };
+		D7AF13D88474818927B391923A83258D /* scalar_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scalar_impl.h; sourceTree = "<group>"; };
+		D8390D3BE50BE595A56DC88C2E17FF91 /* scratch_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = scratch_impl.h; sourceTree = "<group>"; };
+		E0DB71E38E9B1C88F3FF1A4F59017C43 /* field_5x52.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = field_5x52.h; sourceTree = "<group>"; };
+		E707A80EB12A364E231AEED10F3DBA32 /* secp256k1_ecdh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = secp256k1_ecdh.h; sourceTree = "<group>"; };
+		EC012F00ACB3FFF2FFC4DDB01CC98EF3 /* secp256k1_ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "secp256k1_ios-umbrella.h"; sourceTree = "<group>"; };
+		F0D513A82E21E6812989F02F478C3EE5 /* num_gmp_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = num_gmp_impl.h; sourceTree = "<group>"; };
+		F1004C5CA2FC6B09176CFDF860284963 /* ecmult_const.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ecmult_const.h; sourceTree = "<group>"; };
 		F1C154391AC182201509CE2B218B828A /* secp256k1_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = secp256k1_ios.framework; path = secp256k1_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F25A5B0DD7EB782DA4034C41190410B4 /* Pods-ios-secp256k1_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios-secp256k1_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F81611F9EAFD429DE2183325827C8A97 /* scalar_4x64_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scalar_4x64_impl.h; path = secp256k1_ios/src/scalar_4x64_impl.h; sourceTree = "<group>"; };
-		FE3E42876EDC99C4DCBE07A32A32BF24 /* ecmult_const.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecmult_const.h; path = secp256k1_ios/src/ecmult_const.h; sourceTree = "<group>"; };
-		FFFADC5AEC948026D5AE7B7C07F656E3 /* ecmult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecmult.h; path = secp256k1_ios/src/ecmult.h; sourceTree = "<group>"; };
+		F9BFD3E46BBAA4A90E83FA77B90CBC28 /* secp256k1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = secp256k1.h; sourceTree = "<group>"; };
+		FAF152966D44E6EC1601DB765ED3F3F3 /* main_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = main_impl.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,26 +335,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		575B81FABDD11DDF0FDCD0E84875E02A /* Support Files */ = {
+		0E38C63DE4DE84D089E1B881ABD4F9EA /* recovery */ = {
 			isa = PBXGroup;
 			children = (
-				6C2947FF5278E73962942278391C832E /* Info.plist */,
-				5CA5F5A6A4454BACD404E8D2F6930CD8 /* secp256k1_ios.modulemap */,
-				D19A7A43392138FB3CFEA452905B667E /* secp256k1_ios.xcconfig */,
-				6A50B78CDAFEEBF61493FF3EFE7C6163 /* secp256k1_ios-dummy.m */,
-				ACC5A7429FB55E4BC7E1F95406DDC4DC /* secp256k1_ios-prefix.pch */,
-				63A5B18A766ADDBEFB532A43508B927D /* secp256k1_ios-umbrella.h */,
+				73E184210E1F3BAAAD9284F48E65B6CF /* main_impl.h */,
+			);
+			name = recovery;
+			path = recovery;
+			sourceTree = "<group>";
+		};
+		2B4AD90ECAB3A0AFF4D1F966AF30A706 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FECC08205A5A3B793A3AC35555C3FC4C /* secp256k1_ios */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		59E16ABEBD2329BFF3FA05ED2689C9AB /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F9BFD3E46BBAA4A90E83FA77B90CBC28 /* secp256k1.h */,
+				E707A80EB12A364E231AEED10F3DBA32 /* secp256k1_ecdh.h */,
+				90F11C3A56F28BF5DECD71A829B10798 /* secp256k1_recovery.h */,
+			);
+			name = include;
+			path = secp256k1_ios/include;
+			sourceTree = "<group>";
+		};
+		640544DA2087A40E5E85E2A518ADF9CF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EEB9E6CC701F77758EA6CB3BA9361FD /* Info.plist */,
+				8A7366B4359096E5DE34B96DAC67148B /* secp256k1_ios.modulemap */,
+				52349938E2406EC2C97BAC8A6852383B /* secp256k1_ios.xcconfig */,
+				19509ADA97B845976BB0C0231537D908 /* secp256k1_ios-dummy.m */,
+				C0E1F1BBB5A808960BC0F922A5D6539D /* secp256k1_ios-prefix.pch */,
+				EC012F00ACB3FFF2FFC4DDB01CC98EF3 /* secp256k1_ios-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/secp256k1_ios";
+			path = "Example/Pods/Target Support Files/secp256k1_ios";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				2B4AD90ECAB3A0AFF4D1F966AF30A706 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				ECB7402CB7C4C95E5682DD5AD078E24B /* Pods */,
 				B30E008AA284ED155CB910E45EE82914 /* Products */,
 				A51E07F202D991801981E99C458DA73E /* Targets Support Files */,
 			);
@@ -238,63 +415,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C29E170935348AD572042B04D74B6536 /* secp256k1_ios */ = {
-			isa = PBXGroup;
-			children = (
-				5EF615225752995D8EA8EC64ADB1BB53 /* basic-config.h */,
-				0359897BE6F32D1CF9F44C3096DD3F9B /* ecdsa.h */,
-				0626782AF2C9B74E85BF2D4D5C5D800B /* ecdsa_impl.h */,
-				EE098C864AD28F2B7A5A7A0F8A223E49 /* eckey.h */,
-				7974B2BA99E32BCC658AB1409BB8163E /* eckey_impl.h */,
-				FFFADC5AEC948026D5AE7B7C07F656E3 /* ecmult.h */,
-				FE3E42876EDC99C4DCBE07A32A32BF24 /* ecmult_const.h */,
-				54ABD7C7EC6781017AC7224A29E5D1B4 /* ecmult_const_impl.h */,
-				D44964B9A5EDBF1F2034325BFF9714A0 /* ecmult_gen.h */,
-				0FD6FD1724A6FF24F82BCBEA8BFD6439 /* ecmult_gen_impl.h */,
-				3581C25E4C3922D85DD827435C08A268 /* ecmult_impl.h */,
-				E0B6F5202869C742ECD8029AE552DEC9 /* field.h */,
-				BFBB2D36FB47546BA7923085D353D4DD /* field_10x26.h */,
-				64F6B4523006CEAF47C49B88B2C327A7 /* field_10x26_impl.h */,
-				04C4F41A75BEB0891ACB17D5F19CE6EB /* field_5x52.h */,
-				E7C76C68325C5F1DDCF3A4F7BD26BAAD /* field_5x52_asm_impl.h */,
-				BA12B9C8DCD42111DF355410D295465D /* field_5x52_impl.h */,
-				43636F883EFC652D40BD884B424CD5AD /* field_5x52_int128_impl.h */,
-				7348BA85526EBB6B0F556988EBB4E967 /* field_impl.h */,
-				BEFF835D614D32C69051ECA6B6266BAF /* group.h */,
-				14A133B85830D15BD5850FFC19D0B0FF /* group_impl.h */,
-				05EC6DDE93C27418D06CFBB2710FE8C0 /* hash.h */,
-				0B238EF550A2E3517C6B15F06535A13F /* hash_impl.h */,
-				94005EA9F7A542248FEC18B2A33A1D22 /* lax_der_parsing.c */,
-				8585C37C5585E63C423199CEF297C149 /* lax_der_parsing.h */,
-				5E955B91F604E927177C061F71B43A57 /* lax_der_privatekey_parsing.c */,
-				38538E08BC970C3EC40562A01DA1E1B3 /* lax_der_privatekey_parsing.h */,
-				010D0A0EA3DA356D4F966ABDDA2AFA39 /* libsecp256k1-config.h */,
-				C1A35F3AC8604C7789454CC5680A3D12 /* main_impl.h */,
-				A4E0DFC1D9DC6205E0CB95FD11FC5D9E /* main_impl.h */,
-				E1BEE9EB2DFD94DD5660F477E61A6E78 /* num.h */,
-				9A8E937AD80F387B080A117E7E428CED /* num_gmp.h */,
-				B2BBEA758A4C7197723C8B5B791CB6ED /* num_gmp_impl.h */,
-				C88E12AE91EB18B872F74F6E34BCA5EA /* num_impl.h */,
-				8964A399E042E63D6AA7D294688C0022 /* scalar.h */,
-				49B82F0D8838E56F6E3C90BD117F07B3 /* scalar_4x64.h */,
-				F81611F9EAFD429DE2183325827C8A97 /* scalar_4x64_impl.h */,
-				27F1C2A340FC5D872FB43D64CD31A058 /* scalar_8x32.h */,
-				CF2D5344FD80D38BA55244E624F19B26 /* scalar_8x32_impl.h */,
-				A9CD5C7DA29DCA433E1D194CD9E886DC /* scalar_impl.h */,
-				6484B8B140CDAB2C8300B942CD381682 /* scalar_low.h */,
-				EF5530DC1775FE5E5291AB1A6DBEAEBA /* scalar_low_impl.h */,
-				8F32677452251D0C315EF41C1AF26AA1 /* secp256k1.c */,
-				B7325A3804B8F28758EDC118506429CF /* secp256k1.h */,
-				CA55FAE8819325BD5F86B69438EF6DEE /* secp256k1_ecdh.h */,
-				B7BE5B249AE022E028674E3E6492D1A5 /* secp256k1_ios.h */,
-				5216D3B281D43508D33160B9E21AACE2 /* secp256k1_recovery.h */,
-				9F822D2439E0BCAE5710A9744BFB72A3 /* util.h */,
-				575B81FABDD11DDF0FDCD0E84875E02A /* Support Files */,
-			);
-			name = secp256k1_ios;
-			path = secp256k1_ios;
-			sourceTree = "<group>";
-		};
 		C6F95ECB73F46F674800744BCD2CA71E /* Pods-ios-secp256k1_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -313,6 +433,55 @@
 			path = "Target Support Files/Pods-ios-secp256k1_Tests";
 			sourceTree = "<group>";
 		};
+		D32FE5E3A8897E3B0D3006BACA99C38C /* src */ = {
+			isa = PBXGroup;
+			children = (
+				851A8FEA6BBCD68C5A1FF61F93CB8D2C /* basic-config.h */,
+				8EDF4FEC751718C27EDF6B0E7D980059 /* ecdsa.h */,
+				69218CC252AB0322DCDB37DA44F3FC21 /* ecdsa_impl.h */,
+				0DC76A7E072783D71062D07A933EEB72 /* eckey.h */,
+				C4EBDB9659EF2C953E226040EC2DE8E9 /* eckey_impl.h */,
+				6F434DBB0209E4EF2C5DB023C573FDCD /* ecmult.h */,
+				F1004C5CA2FC6B09176CFDF860284963 /* ecmult_const.h */,
+				B2BD700E89F0717EDE9F9F177E7E530E /* ecmult_const_impl.h */,
+				692E8DE583648CCD1A5C2BD6489EC1C1 /* ecmult_gen.h */,
+				024E6C874A35A994F1DAECA99AA25808 /* ecmult_gen_impl.h */,
+				2AC693BFED10BB5911D0F82A17B441CB /* ecmult_impl.h */,
+				0CE053840C4608F977E881970A0F0EAD /* field.h */,
+				C271CDC919D4AA95C5DE964EF3E8077F /* field_10x26.h */,
+				33D7B31961E8D3A22E010A4DE7D6E532 /* field_10x26_impl.h */,
+				E0DB71E38E9B1C88F3FF1A4F59017C43 /* field_5x52.h */,
+				7C624D4838F4DB672DC437D6C6A30DF6 /* field_5x52_asm_impl.h */,
+				4B4314A6A7E3FB1EAC47BB19D1EC39F2 /* field_5x52_impl.h */,
+				63DC095671EB5252952937F1D28FF95E /* field_5x52_int128_impl.h */,
+				0B6D9835076EEDC8390E8ACF58728304 /* field_impl.h */,
+				3F9484B6DE189EE90684483C20FB5DB8 /* group.h */,
+				47816532202EF5FA7136433ECEE9F930 /* group_impl.h */,
+				0B464D978BAF23F93381B03771EC0F64 /* hash.h */,
+				AB4D5FD62615D792610191804DFCAD6E /* hash_impl.h */,
+				3A0DE3646F7ED590595A33388AF0D06B /* libsecp256k1-config.h */,
+				B3ACC2A11CBCAB2DA7FACF859B548110 /* num.h */,
+				3B7C68DCF631F2E4BF3A7796675CBE00 /* num_gmp.h */,
+				F0D513A82E21E6812989F02F478C3EE5 /* num_gmp_impl.h */,
+				38848D663FD2052F37770169478B3541 /* num_impl.h */,
+				4E75F62429EA1F3EBCD6E61BFE8A1848 /* scalar.h */,
+				82C5506AF03547F4B746CDDFF689D4DB /* scalar_4x64.h */,
+				02617382966B3631A6CBCC1BC8D391AC /* scalar_4x64_impl.h */,
+				867F35BB811EE7A4F7C76714A7882816 /* scalar_8x32.h */,
+				8359BBECCDA8711B4A6D05E9CD40192E /* scalar_8x32_impl.h */,
+				D7AF13D88474818927B391923A83258D /* scalar_impl.h */,
+				9EE27F47604C9C665DD20A11312E06EC /* scalar_low.h */,
+				11D503868752DD2AA50CA1B8090B70AE /* scalar_low_impl.h */,
+				08C6E33E73B1B68D2335465E5DE426DF /* scratch.h */,
+				D8390D3BE50BE595A56DC88C2E17FF91 /* scratch_impl.h */,
+				B541DFA2CD22688083BB76A81A7B8E13 /* secp256k1.c */,
+				77BE3BF8E0B802820BE72D758DE385C4 /* util.h */,
+				DC56E90BBD2740F2BFD69153B6FCF3D7 /* modules */,
+			);
+			name = src;
+			path = secp256k1_ios/src;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -321,12 +490,26 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		ECB7402CB7C4C95E5682DD5AD078E24B /* Pods */ = {
+		DC56E90BBD2740F2BFD69153B6FCF3D7 /* modules */ = {
 			isa = PBXGroup;
 			children = (
-				C29E170935348AD572042B04D74B6536 /* secp256k1_ios */,
+				FD1CF77CC522FCFDCFE5AC70E584AA42 /* ecdh */,
+				0E38C63DE4DE84D089E1B881ABD4F9EA /* recovery */,
 			);
-			name = Pods;
+			name = modules;
+			path = modules;
+			sourceTree = "<group>";
+		};
+		E1E88EF5593B9E035E02FF203C402956 /* contrib */ = {
+			isa = PBXGroup;
+			children = (
+				A51EDCC1F29E6FE4115CEA76D03466B1 /* lax_der_parsing.c */,
+				0454ED973699192BA6850B6E18351533 /* lax_der_parsing.h */,
+				BF650D4A6D5EFAE66A327AD99F836F61 /* lax_der_privatekey_parsing.c */,
+				CC1E0DD7003627BEBA536D9FA1461EE3 /* lax_der_privatekey_parsing.h */,
+			);
+			name = contrib;
+			path = secp256k1_ios/contrib;
 			sourceTree = "<group>";
 		};
 		F1DD45F1D1B8C68CFBCBBC061CCB3623 /* Pods-ios-secp256k1_Example */ = {
@@ -347,9 +530,86 @@
 			path = "Target Support Files/Pods-ios-secp256k1_Example";
 			sourceTree = "<group>";
 		};
+		FD1CF77CC522FCFDCFE5AC70E584AA42 /* ecdh */ = {
+			isa = PBXGroup;
+			children = (
+				FAF152966D44E6EC1601DB765ED3F3F3 /* main_impl.h */,
+			);
+			name = ecdh;
+			path = ecdh;
+			sourceTree = "<group>";
+		};
+		FECC08205A5A3B793A3AC35555C3FC4C /* secp256k1_ios */ = {
+			isa = PBXGroup;
+			children = (
+				651DBF6626C7D5F624A167325CB09E00 /* libsecp256k1-config.h */,
+				E1E88EF5593B9E035E02FF203C402956 /* contrib */,
+				59E16ABEBD2329BFF3FA05ED2689C9AB /* include */,
+				D32FE5E3A8897E3B0D3006BACA99C38C /* src */,
+				640544DA2087A40E5E85E2A518ADF9CF /* Support Files */,
+			);
+			name = secp256k1_ios;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		6BFA0BAFDBCE5594122B20D5C0AA69DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB90CAF764ED3177C1FCD79A7F0B5C0 /* basic-config.h in Headers */,
+				808FE4F6F16133571F753FA62C9ABD20 /* ecdsa.h in Headers */,
+				720F130F849C4B37BBFE23E21BF9C919 /* ecdsa_impl.h in Headers */,
+				8517013AD87F783EC2BC6B0F5801C721 /* eckey.h in Headers */,
+				C8F090FAE2C1668293EF821A50BC7CE5 /* eckey_impl.h in Headers */,
+				6A445184AEC86F6204E6DE0F58633A95 /* ecmult.h in Headers */,
+				0EA7C79B228CDFBE3B498CCB0A3924D3 /* ecmult_const.h in Headers */,
+				168882D7C5034B335FE7F8B640606E15 /* ecmult_const_impl.h in Headers */,
+				4E1E720793739D05350DCCC75E724933 /* ecmult_gen.h in Headers */,
+				E781E1B6B45B07758775B3BB43154FEB /* ecmult_gen_impl.h in Headers */,
+				43584494C38004EE79B2D621B5F13477 /* ecmult_impl.h in Headers */,
+				3BFD8C6DEB69955B7F6E1B47F96C854B /* field.h in Headers */,
+				73A777F09710A2567A3B6CF8000774D3 /* field_10x26.h in Headers */,
+				CE9E44B50B24F1082A53CA4043C90301 /* field_10x26_impl.h in Headers */,
+				05A9F013D45860BF7FAA623901E6BA58 /* field_5x52.h in Headers */,
+				C9C3B020BE2BE0F4E2F5F57BE69EB6BC /* field_5x52_asm_impl.h in Headers */,
+				F4CCF157BB5DE187331FC666931FDED0 /* field_5x52_impl.h in Headers */,
+				50735B7D2EF1F35EA2B8D62E31A3E9E5 /* field_5x52_int128_impl.h in Headers */,
+				D37DFE3A13C69276908CD336FFB3683A /* field_impl.h in Headers */,
+				9EC723D80D40C6C69C92E80A9D7B70AA /* group.h in Headers */,
+				800E5FCCBA0592B4CF53F287693FC5DE /* group_impl.h in Headers */,
+				20F8CF8C3C4A3490D080A63757922F7D /* hash.h in Headers */,
+				7AB31E006B53CF33F2257738C9019543 /* hash_impl.h in Headers */,
+				FE7259D67292779D042720A905CA1FC5 /* lax_der_parsing.h in Headers */,
+				624105B2EF201F11BC58ECDB91A205B5 /* lax_der_privatekey_parsing.h in Headers */,
+				1B46C063EB725BAA3A98E5228191B01A /* libsecp256k1-config.h in Headers */,
+				F1C6CB38D4EAFFB4FBCBAE6D74EA42AB /* libsecp256k1-config.h in Headers */,
+				746923DC5F6F28631085C55CB99CEE7E /* main_impl.h in Headers */,
+				A979EE1D6BCFF516BD702F2622B4D80C /* main_impl.h in Headers */,
+				9FA159229CFA128FB877007F1B5B88BB /* num.h in Headers */,
+				BCF0E4748B47D7B85CAE3CE3090D2711 /* num_gmp.h in Headers */,
+				E75ABC9ADA80F5FA1216EB251A6927DC /* num_gmp_impl.h in Headers */,
+				C180AB137D8E784975C9E5B257696ACF /* num_impl.h in Headers */,
+				B293059B3A56AE975F614968AF24E50D /* scalar.h in Headers */,
+				51DF1E0B30482CE355E04E05E678F8E9 /* scalar_4x64.h in Headers */,
+				81188758237F06829BD72C3C84BA38CE /* scalar_4x64_impl.h in Headers */,
+				9505CFAA37CA7679ECB5DB19F144C6FF /* scalar_8x32.h in Headers */,
+				70D1C573E1416DD1218DC6AD750410FA /* scalar_8x32_impl.h in Headers */,
+				13A414FD51DA2B4A6EF817983CE8C432 /* scalar_impl.h in Headers */,
+				48132B0163CCE0AA5A0D7A1D5E95251B /* scalar_low.h in Headers */,
+				5C2FD81CEB1A7CD21B27F18440994A00 /* scalar_low_impl.h in Headers */,
+				C4C95257A1DC7145ADD1E675B0819919 /* scratch.h in Headers */,
+				B0B33C981A5E65E2712D3F887328F749 /* scratch_impl.h in Headers */,
+				1EFC151D7ECF9D4885B058C5FA9B764D /* secp256k1.h in Headers */,
+				9BBEF9E59CD4CBD872FCB6D57B591169 /* secp256k1_ecdh.h in Headers */,
+				EF6507D7423FEE73530AFEB844C36B63 /* secp256k1_ios-umbrella.h in Headers */,
+				75A6428D0A9DF800AE51AAF89FE4C778 /* secp256k1_recovery.h in Headers */,
+				948F1D372D8F099EDF5127F93D2E8310 /* util.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B0600B613AB54B39FB6A3EA97C31BC79 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -366,59 +626,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E693011C1E853B87619F4A214AC42DF6 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4CE2F6AC4EBBD79EA2EB6413E01EB076 /* basic-config.h in Headers */,
-				66DAD32D7DDC68F804DD3DF1DE2CDFBB /* ecdsa.h in Headers */,
-				3811973A76E76C9ED504FD12127F10D1 /* ecdsa_impl.h in Headers */,
-				D8CA63B3638970E28AD3713E43F5D47D /* eckey.h in Headers */,
-				59C4E30A7721EE083CFE44BFD666A704 /* eckey_impl.h in Headers */,
-				BFFD19076231CD90AD7BDCB33319F24F /* ecmult.h in Headers */,
-				2847D3D6C5D2A06000EF4581C1666DA0 /* ecmult_const.h in Headers */,
-				EB612889E6055B5AC21B27EE1FF8A7E4 /* ecmult_const_impl.h in Headers */,
-				BE51326EEE6C549495C4593EB775E741 /* ecmult_gen.h in Headers */,
-				09DB32BABEB865B7DDBE09ADD80CF2B5 /* ecmult_gen_impl.h in Headers */,
-				C5C0F3B5A24194073A73EC954D87024D /* ecmult_impl.h in Headers */,
-				86D4056A73058985F5AB7249048B9124 /* field.h in Headers */,
-				860EC08E4EB80EDB2059C0426FED4777 /* field_10x26.h in Headers */,
-				37C7254B5C0F3470F9198E69C173D45A /* field_10x26_impl.h in Headers */,
-				849949E6FEC9A906CCA23E7D282B369A /* field_5x52.h in Headers */,
-				9EEC59770DDE66DDFA3F553FF7672403 /* field_5x52_asm_impl.h in Headers */,
-				3E97ADE8507932AED9F41B067759977D /* field_5x52_impl.h in Headers */,
-				225F5954261EB8BF799AC86D53016F73 /* field_5x52_int128_impl.h in Headers */,
-				CA782B64D26758AD2E6A22FF36A90221 /* field_impl.h in Headers */,
-				4E61E7E6B2C5DC346BAB645AFFE730DD /* group.h in Headers */,
-				17C0C9ADAAE594380804E02788B2CE87 /* group_impl.h in Headers */,
-				FAA12CE9526CA099B584C9E876C387D7 /* hash.h in Headers */,
-				56CCFABF53E2B27C75A7059699D6500F /* hash_impl.h in Headers */,
-				CA2721C1699EF5350D47ED25A0E63374 /* lax_der_parsing.h in Headers */,
-				DA97D820CAF6651FC037A998634650BF /* lax_der_privatekey_parsing.h in Headers */,
-				13F246839BD35DA8F9969E59E255E455 /* libsecp256k1-config.h in Headers */,
-				12D3341DCF025EA96F148D3FC961D2BE /* main_impl.h in Headers */,
-				B5051C9598DC095BEDE499A0EAB76B59 /* main_impl.h in Headers */,
-				A80A4AD9EF6DD92FE9A97B79F61DB80A /* num.h in Headers */,
-				A725D4FAA3C3882C67F68706793A7C51 /* num_gmp.h in Headers */,
-				82D2529811EC7C3240D2EF156644B503 /* num_gmp_impl.h in Headers */,
-				0AD992B04E035D5D6C6F8A478C937183 /* num_impl.h in Headers */,
-				DEE5E36F39C7AC1B421E50BE6C84975A /* scalar.h in Headers */,
-				9551D32F2A0E8A1A22FC64A9AC3B8B46 /* scalar_4x64.h in Headers */,
-				AEA6722C62CCF15A197F53F6B0ED2C02 /* scalar_4x64_impl.h in Headers */,
-				094A3FA250EBB406134ECF6CCA480AB7 /* scalar_8x32.h in Headers */,
-				35EE9D857A8329426336354CCA2CBDE2 /* scalar_8x32_impl.h in Headers */,
-				97134480AF6499F58DEEBDCD5EEA669F /* scalar_impl.h in Headers */,
-				F70E1738574E24B6D50ADC6475358807 /* scalar_low.h in Headers */,
-				996D1C4717FD6CBCE5B42D63D2F7016F /* scalar_low_impl.h in Headers */,
-				16CC4576623267CF121BD255B398DFE1 /* secp256k1.h in Headers */,
-				63435B429BED96383B8F3D4B95330691 /* secp256k1_ecdh.h in Headers */,
-				8C22633C50FE63ACEED2403A2F380938 /* secp256k1_ios-umbrella.h in Headers */,
-				057EE2D10B1A9F58793C1AC1DCB5C688 /* secp256k1_ios.h in Headers */,
-				EED894886CC36D1E3C0DD6D207F4B52E /* secp256k1_recovery.h in Headers */,
-				A4F461CADF10680E7B9C73920A0C0720 /* util.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -426,9 +633,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68117313BF5E98BDF26E8B4DB6607F57 /* Build configuration list for PBXNativeTarget "secp256k1_ios" */;
 			buildPhases = (
-				CF068AF5082B90452AA1032587A7905C /* Sources */,
+				2127F16BFB8FAA0761449154AC3FA39C /* Sources */,
 				3BB3F6C70CB1F772B738BCB787227E69 /* Frameworks */,
-				E693011C1E853B87619F4A214AC42DF6 /* Headers */,
+				6BFA0BAFDBCE5594122B20D5C0AA69DC /* Headers */,
+				97C1CDC9D77375DA2A5BA214A40F7740 /* Copy ../contrib Private Headers */,
+				B813DD045A0022A5A9A493933E685DCC /* Copy . Public Headers */,
+				A7700684CA6E5D75C7F369DE3EB41550 /* Copy ../src Private Headers */,
+				00D7F7F5B4553068BC2DFCC589CC9CDE /* Copy ../src/modules/recovery Private Headers */,
+				46A1B86C7D57D61647774BCFCAEDF99E /* Copy .. Private Headers */,
 			);
 			buildRules = (
 			);
@@ -503,22 +715,22 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2127F16BFB8FAA0761449154AC3FA39C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013B5F2BEB9A28AEBF75BC15B55979B6 /* lax_der_parsing.c in Sources */,
+				99F8BF9962279063E4E08D819DEB0547 /* lax_der_privatekey_parsing.c in Sources */,
+				6717A58C13A11DB51FE672294119082D /* secp256k1.c in Sources */,
+				6B170F3146F1BFEFDC8ECE5FB269092B /* secp256k1_ios-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BA46A814B429FA56F5A280C6E111D5A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				04C9CF375744BFF6FF1A57EC63C6E090 /* Pods-ios-secp256k1_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF068AF5082B90452AA1032587A7905C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2BB6F54BFEAC69163D6FEA834E7C45EA /* lax_der_parsing.c in Sources */,
-				2D0A54460776FDCFD014F50B203B82D5 /* lax_der_privatekey_parsing.c in Sources */,
-				FA7B01429573DCC495EFB2F01D280ADE /* secp256k1.c in Sources */,
-				D1F29FAFB852261E96CFABD7A7590167 /* secp256k1_ios-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,7 +756,7 @@
 /* Begin XCBuildConfiguration section */
 		2A2B691318193AEAFA0C2D1530C48800 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D19A7A43392138FB3CFEA452905B667E /* secp256k1_ios.xcconfig */;
+			baseConfigurationReference = 52349938E2406EC2C97BAC8A6852383B /* secp256k1_ios.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -693,7 +905,7 @@
 		};
 		8A697CCF42B81B2C3EAD2814E54979C1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D19A7A43392138FB3CFEA452905B667E /* secp256k1_ios.xcconfig */;
+			baseConfigurationReference = 52349938E2406EC2C97BAC8A6852383B /* secp256k1_ios.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
