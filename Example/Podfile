@@ -1,8 +1,8 @@
 use_frameworks!
 platform :ios, '9.0'
 target 'ios-secp256k1_Example' do
-#  pod 'secp256k1_ios', :git => 'https://github.com/shamatar/secp256k1_ios.git'
-  pod 'secp256k1_ios', :path => '../'
+  pod 'secp256k1_ios', :git => 'https://github.com/shamatar/secp256k1_ios.git'
+#  pod 'secp256k1_ios', :path => '../'
   target 'ios-secp256k1_Tests' do
     inherit! :search_paths
   end
