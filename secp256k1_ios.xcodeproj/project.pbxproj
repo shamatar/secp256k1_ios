@@ -84,6 +84,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		813AD5542003C72D0005CE07 /* libsecp256k1-config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "libsecp256k1-config.h"; path = "secp256k1_ios/libsecp256k1-config.h"; sourceTree = SOURCE_ROOT; };
 		816100AC1FECEEDD00DE842E /* secp256k1_ecdh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secp256k1_ecdh.h; sourceTree = "<group>"; };
 		816100AD1FECEEDD00DE842E /* secp256k1_recovery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secp256k1_recovery.h; sourceTree = "<group>"; };
 		816100AE1FECEEDD00DE842E /* secp256k1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secp256k1.h; sourceTree = "<group>"; };
@@ -223,6 +224,7 @@
 				816100D91FECEEDD00DE842E /* scratch_impl.h */,
 				816100DA1FECEEDD00DE842E /* bench_sign.c */,
 				816100DB1FECEEDD00DE842E /* ecmult_impl.h */,
+				813AD5542003C72D0005CE07 /* libsecp256k1-config.h */,
 				816100DC1FECEEDD00DE842E /* group.h */,
 				816100DD1FECEEDD00DE842E /* bench_verify.c */,
 				816100DE1FECEEDD00DE842E /* tests.c */,
