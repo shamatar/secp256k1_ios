@@ -12,10 +12,11 @@
 #define USE_NUM_NONE 1
 #define USE_FIELD_INV_BUILTIN 1
 #define USE_SCALAR_INV_BUILTIN 1
+#define HAVE_BUILTIN_EXPECT 1
+#define USE_ECMULT_STATIC_PRECOMPUTATION 1
 #define ENABLE_MODULE_RECOVERY 1
 #ifdef __LP64__
-typedef __int128 int128_t;
-typedef unsigned __int128 uint128_t;
+#define HAVE___INT128 1
 #define USE_FIELD_5X52 1
 #define USE_SCALAR_4X64 1
 #else

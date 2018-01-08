@@ -42,5 +42,17 @@
     "secp256k1_ios/src/*bench*.{c,h}",
     "secp256k1_ios/src/*bench*.{c,h}",
     "secp256k1_ios/src/modules/{recovery,ecdh}/*test*.{c,h}"
+  ],
+  "testspecs": [
+    {
+      "name": "Tests",
+      "test_type": "unit",
+      "source_files": [
+        "secp256k1_ios/src/test*.{c,h}",
+        "secp256k1_ios/src/*bench*.{c,h}",
+        "secp256k1_ios/src/*bench*.{c,h}",
+        "secp256k1_ios/src/modules/{recovery,ecdh}/*test*.{c,h}"
+      ]
+    }
   ]
 }
