@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "secp256k1_ios"
-s.version          = "0.0.9"
+s.version          = "0.1.0"
 s.summary          = "Reference sepc256k1 implementation as pod"
 
 s.description      = <<-DESC
@@ -18,7 +18,7 @@ s.ios.deployment_target = "9.0"
 s.osx.deployment_target = "10.10"
 s.pod_target_xcconfig = {
     'SWIFT_INCLUDE_PATHS' => '${PODS_ROOT}',
-	'OTHER_CFLAGS' => '-DHAVE_CONFIG_H=1 -Wno-shorten-64-to-32 -Wno-unused-function -Wno-conditional-uninitialized',
+	'OTHER_CFLAGS' => '-DHAVE_CONFIG_H=1 -pedantic -Wall -Wextra -Wcast-align -Wnested-externs -Wshadow -Wstrict-prototypes -Wno-shorten-64-to-32 -Wno-conditional-uninitialized -Wno-unused-function -Wno-long-long -Wno-overlength-strings -fvisibility=hidden -O3',
     'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/secp256k1_ios/secp256k1_ios"'
 }
 s.prepare_command = <<-CMD
