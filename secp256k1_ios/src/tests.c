@@ -15,7 +15,7 @@
 #include <time.h>
 
 #include "secp256k1.c"
-#include "include/secp256k1.h"
+#include "secp256k1.h"
 #include "testrand_impl.h"
 
 #ifdef ENABLE_OPENSSL_TESTS
@@ -25,8 +25,8 @@
 #include "openssl/obj_mac.h"
 #endif
 
-#include "contrib/lax_der_parsing.c"
-#include "contrib/lax_der_privatekey_parsing.c"
+#include "lax_der_parsing.c"
+#include "lax_der_privatekey_parsing.c"
 
 #if !defined(VG_CHECK)
 # if defined(VALGRIND)

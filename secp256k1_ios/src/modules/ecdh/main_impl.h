@@ -7,7 +7,7 @@
 #ifndef SECP256K1_MODULE_ECDH_MAIN_H
 #define SECP256K1_MODULE_ECDH_MAIN_H
 
-#include "include/secp256k1_ecdh.h"
+#include "secp256k1_ecdh.h"
 #include "ecmult_const_impl.h"
 
 int secp256k1_ecdh(const secp256k1_context* ctx, unsigned char *result, const secp256k1_pubkey *point, const unsigned char *scalar) {

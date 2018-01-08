@@ -1,5 +1,5 @@
 PODS:
-  - secp256k1_ios (0.0.7)
+  - secp256k1_ios (0.0.8)
 
 DEPENDENCIES:
   - secp256k1_ios (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  secp256k1_ios: 8a5aadd54b2e302444b5527aca7bc92e12330c9f
+  secp256k1_ios: e8fda7d71614801c991e32b7c3536917f7fe1d44
 
 PODFILE CHECKSUM: 3acf06405b2a6cadb14afbc87cd17c37d7d8945b
 
