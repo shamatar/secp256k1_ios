@@ -13,7 +13,7 @@
 //// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 //
 //#endif /* secp256k1_ios_pch */
-
+#define HAVE_CONFIG_H 1
 #ifdef __OBJC__
 #import <UIKit/UIKit.h>
 #else

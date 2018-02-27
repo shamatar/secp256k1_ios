@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "secp256k1_ios"
-s.version          = "0.1.1"
+s.version          = "0.1.2"
 s.summary          = "Reference sepc256k1 implementation as pod"
 
 s.description      = <<-DESC

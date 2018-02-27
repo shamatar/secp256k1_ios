@@ -9,7 +9,6 @@
 
 
 #import <XCTest/XCTest.h>
-#import "tests.c"
 @interface secp256k1_iosTests : XCTestCase
 
 @end
